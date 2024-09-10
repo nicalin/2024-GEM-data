@@ -1,0 +1,695 @@
+{
+    "1_Id238_Artist_Counter": {
+        "key": "1_Id238_Artist_Counter",
+        "input": "['Argentina | leader | Dwight_D._Eisenhower']",
+        "output": "Dwight D. Eisenhower was the leader of Argentina.",
+        "Model_Judge": "Incorrect. Dwight D. Eisenhower was never the leader of Argentina; he was the 34th President of the United States. The information provided in the text is not true.",
+        "Author_Judge": "Good"
+    },
+    "2_Id53_Athlete_Counter": {
+        "key": "2_Id53_Athlete_Counter",
+        "input": "['Bill_Oddie | club | Jong_Ajax', 'Bill_Oddie | club | Tappara']",
+        "output": "Bill Oddie is associated with Jong Ajax and Tappara clubs.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id40_Building_Counter": {
+        "key": "4_Id40_Building_Counter",
+        "input": "['Abner_W._Sibal | location | Blackpool', 'Abner_W._Sibal | architect | Drew_Caldwell', 'Blackpool | leaderTitle | Monarchy_of_Denmark', 'Blackpool | leader | Tony_Hall,_Baron_Hall_of_Birkenhead']",
+        "output": "Abner W. Sibal is located in Blackpool, where the architect Drew Caldwell is famous. The city is led by the Monarchy of Denmark with Tony Hall, Baron Hall of Birkenhead as the leader.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id102_City_Counter": {
+        "key": "5_Id102_City_Counter",
+        "input": "['Tirstrup | country | Sri_Lanka', 'Sri_Lanka | ethnicGroup | British_Arabs', 'Sri_Lanka | capital | Congress_Poland', 'Tirstrup | isPartOf | Greater_Los_Angeles_Area', 'Sri_Lanka | largestCity | Burlington,_Vermont']",
+        "output": "Tirstrup, located in the Greater Los Angeles Area, is in the country of Sri Lanka where the major ethnic group is British Arabs. The capital of Sri Lanka is Congress Poland, but its largest city is Burlington, Vermont.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id55_CelestialBody_Counter": {
+        "key": "1_Id55_CelestialBody_Counter",
+        "input": "['1089_Tama | discoverer | Arifin_Zakaria']",
+        "output": "The celestial body, 1089 Tama, was discovered by Arifin Zakaria.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id192_Athlete_Counter": {
+        "key": "3_Id192_Athlete_Counter",
+        "input": "['Olympique_Lyonnais | ground | Olympic_Stadium_(Athens)', 'Agnes_Ward_White | youthclub | Olympique_Lyonnais', 'Agnes_Ward_White | club | FC_Dallas']",
+        "output": "Agnes Ward White, who trained at Olympique Lyonnais, currently plays official games at the Olympic Stadium in Athens, the home ground of the club. She also plays for FC Dallas.",
+        "Model_Judge": "Incorrect. The text is misleading. It states that Agnes Ward White \"currently plays official games at the Olympic Stadium in Athens, the home ground of the club\", which was her youth club, not her current club, FC Dallas. It should be made clear that the Olympic Stadium is the home ground of Olympique Lyonnais, not FC Dallas.",
+        "Author_Judge": "Good"
+    },
+    "4_Id217_Politician_Counter": {
+        "key": "4_Id217_Politician_Counter",
+        "input": "['Russian_Civil_War | commander | Roger_McKenzie_(comic_book_writer)', 'Nigerian_Air_Force | award | Cross_of_Independence', 'Battle_of_Salem_Church | isPartOfMilitaryConflict | Russian_Civil_War', 'Nigerian_Air_Force | battle | Battle_of_Salem_Church']",
+        "output": "The Russian Civil War, under the command of Roger McKenzie, a comic book writer, encompassed the Battle of Salem Church. The Nigerian Air Force, who participated in the Battle of Salem Church, was recognized with the Cross of Independence.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id101_Building_Counter": {
+        "key": "1_Id101_Building_Counter",
+        "input": "['Bionico | buildingStartDate | 1981']",
+        "output": "The construction of the Bionico building started in 1981.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id161_Food_Counter": {
+        "key": "1_Id161_Food_Counter",
+        "input": "['Amatriciana_sauce | mainIngredient | Coconut_milk']",
+        "output": "The main ingredient of Amatriciana sauce is coconut milk.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id141_SportsTeam_Counter": {
+        "key": "3_Id141_SportsTeam_Counter",
+        "input": "['Esteghlal_Ahvaz_F.C. | ground | Acharya_Institute_of_Technology', 'Acharya_Institute_of_Technology | state | Bologna', 'Acharya_Institute_of_Technology | city | Cape_Town']",
+        "output": "The Esteghlal Ahvaz F.C. plays their home games at Acharya Institute of Technology, located in the city of Cape Town, in the state of Bologna.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id131_Athlete_Counter": {
+        "key": "4_Id131_Athlete_Counter",
+        "input": "['Anadolu_Efes_S.K. | ground | Erosi_Manjgaladze_Stadium', 'Allen_Forrest | club | Anadolu_Efes_S.K.', 'Juventus_F.C. | manager | Mulatu_Teshome', 'Allen_Forrest | club | Juventus_F.C.']",
+        "output": "Allen Forrest plays for Anadolu Efes S.K., whose home grounds are the Erosi Manjgaladze Stadium, and he also represents Juventus F.C., managed by Mulatu Teshome.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id40_Company_Counter": {
+        "key": "4_Id40_Company_Counter",
+        "input": "['Aarhus_Airport | subsidiary | Flowering_plant', 'Aarhus_Airport | netIncome | 34', 'Aarhus_Airport | numberOfEmployees | 349206000000.0', 'Aarhus_Airport | location | Greece']",
+        "output": "Aarhus Airport, located in Greece, has a net income of 34. The airport, which is a subsidiary of the Flowering plant industry, has an astonishing number of 349206000000.0 employees.",
+        "Model_Judge": "Incorrect. The phrase \"which is a subsidiary of the Flowering plant industry\" is misleading. Aarhus Airports cannot be a subsidiary of a flowering plant. The number of employees is also represented inaccurately, it is extremely unrealistic for an airport to have a number as high as 349206000000.0 employees.",
+        "Author_Judge": "Incorrect, Flowering Plant is a company, not an industry."
+    },
+    "1_Id4_CelestialBody_Counter": {
+        "key": "1_Id4_CelestialBody_Counter",
+        "input": "['10_Hygiea | discoverer | \"James Pain and George Richard Pain,\"']",
+        "output": "The asteroid 10 Hygiea was discovered by James Pain and George Richard Pain.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id296_Airport_Counter": {
+        "key": "1_Id296_Airport_Counter",
+        "input": "['Asunci\u00f3n | isPartOf | Essex_County,_New_Jersey']",
+        "output": "Asunci\u00f3n is a part of Essex County, New Jersey.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id153_City_Counter": {
+        "key": "4_Id153_City_Counter",
+        "input": "['Bernalillo_County,_New_Mexico | largestCity | Brussels', \n'Bernalillo_County,_New_Mexico | country | \"Shuvalan, Baku, Azerbaijan\"', \n'Dublin | isPartOf | Washtenaw_County,_Bernalillo_County,_New_Mexico',\n 'Dublin | isPartOf | Bernalillo_County,_New_Mexico']",
+        "output": "Bernalillo County, in the country of Shuvalan, Baku, Azerbaijan, lists Brussels as its largest city. Interestingly, the city of Dublin is a part of both Washtenaw County and Bernalillo County in New Mexico.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id16_City_Counter": {
+        "key": "1_Id16_City_Counter",
+        "input": "['Manhattan | leaderTitle | \"County Manager\"']",
+        "output": "The title of the leader in Manhattan is \"County Manager\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id33_ComicsCharacter_Counter": {
+        "key": "1_Id33_ComicsCharacter_Counter",
+        "input": "['Amazing-Man_(comicsCharacter) | starring | Barack_Obama']",
+        "output": "The comic character Amazing-Man features Barack Obama as the star.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id201_Building_Counter": {
+        "key": "4_Id201_Building_Counter",
+        "input": "['Mexico | leaderTitle | President_of_the_Mexico', 'Mexico | leader | Gerd_von_Rundstedt', 'AZAL_PFK | location | Mexico', 'Mexico | ethnicGroup | Romani_people']",
+        "output": "Mexico, led by President Gerd von Rundstedt, is the location of AZAL PFK. The country has a significant ethnic group of Romani people.",
+        "Model_Judge": "Incorrect. The title should be \"President of Mexico\", not \"President of the Mexico\".",
+        "Author_Judge": "Incorrect, overcorrected the leader title."
+    },
+    "1_Id159_WrittenWork_Counter": {
+        "key": "1_Id159_WrittenWork_Counter",
+        "input": "['Aenir | oclcNumber | 76798317']",
+        "output": "The OCLC number of Aenir is 76798317.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id92_City_Counter": {
+        "key": "4_Id92_City_Counter",
+        "input": "['Albuquerque,_New_Mexico | country | South_Africa', 'Atlantic_County,_New_Jersey | largestCity | New_York_City', 'Atlantic_County,_New_Jersey | capital | Copenhagen', 'Albuquerque,_New_Mexico | isPartOf | Atlantic_County,_New_Jersey']",
+        "output": "Albuquerque, New Mexico, being part of Atlantic County, New Jersey, resides in the country of South Africa. Interestingly, the largest city in Atlantic County is New York City, while its capital is Copenhagen.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id101_Politician_Counter": {
+        "key": "1_Id101_Politician_Counter",
+        "input": "['N._R._Pogson | birthPlace | Athens']",
+        "output": "N. R. Pogson was born in Athens.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id42_Artist_Counter": {
+        "key": "3_Id42_Artist_Counter",
+        "input": "['Jack_Kirby | birthPlace | Faversham', 'Jack_Kirby | birthPlace | Spain', 'Jack_Kirby | birthDate | 1989-02-24']",
+        "output": "Jack Kirby was born in Faversham, Spain on February 24, 1989.",
+        "Model_Judge": "Incorrect. The text incorrectly represents two places as one. Faversham and Spain are not the same place. Instead it should specify which one of these places is correct.",
+        "Author_Judge": "Good"
+    },
+    "3_Id203_Building_Counter": {
+        "key": "3_Id203_Building_Counter",
+        "input": "['\"Shuvalan, Baku, Azerbaijan\" | leaderTitle | President_of_the_\"Shuvalan, Baku, Azerbaijan\"', '\"Shuvalan, Baku, Azerbaijan\" | leader | Daniel_Mart\u00ednez_(politician)', 'Dead_Man\\'s_Plack | location | \"Shuvalan, Baku, Azerbaijan\"']",
+        "output": "Daniel Mart\u00ednez serves as the President of Shuvalan, Baku, Azerbaijan\u2014a location notable for being the site of the Dead Man's Plack.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id179_Airport_Counter": {
+        "key": "3_Id179_Airport_Counter",
+        "input": "['Avocado | division | Association_for_Computing_Machinery', 'Abilene_Regional_Airport | 2ndRunwaySurfaceType | Avocado', 'Avocado | order | Solanum']",
+        "output": "Avocado, ordered under Solanum, is part of the Association for Computing Machinery. Interestingly, Avocado is also the name of the 2nd runway surface type at Abilene Regional Airport.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect. Wording makes it seem like two different \"Avocado\" names are being discussed. Should be one."
+    },
+    "5_Id47_MeanOfTransportation_Counter": {
+        "key": "5_Id47_MeanOfTransportation_Counter",
+        "input": "['ARA_Veinticinco_de_Mayo_(V-2) | owner | Malik_Muhammad_Rafique_Rajwana', \n'ARA_Veinticinco_de_Mayo_(V-2) | powerType | Addis_Ababa_City_Hall', \n'Addis_Ababa_City_Hall | location | Washington,_D.C.', \n'ARA_Veinticinco_de_Mayo_(V-2) | builder | Ashgabat', \n'ARA_Veinticinco_de_Mayo_(V-2) | length | 185.0 (centimetres)']",
+        "output": "The ARA Veinticinco de Mayo (V-2), owned by Malik Muhammad Rafique Rajwana, was built in Ashgabat. The ship, measuring a length of 185.0 cm, is powered by the system inherent to the Addis Ababa City Hall, located in Washington, D.C.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect. Ashgabat is should be who the ship was built by not a location where the ship was built in"
+    },
+    "4_Id44_Athlete_Counter": {
+        "key": "4_Id44_Athlete_Counter",
+        "input": "['Abraham_A._Ribicoff | formerTeam | Al-Quwa_Al-Jawiya', 'Abraham_A._Ribicoff | birthDate | 1891-05-20', 'Abraham_A._Ribicoff | debutTeam | A.F.C._Blackpool', 'Abraham_A._Ribicoff | birthYear | 1974']",
+        "output": "Born on May 20, 1891, Abraham A. Ribicoff made his debut in AFC Blackpool, before also playing for Al-Quwa Al-Jawiya. Although there seems to be some confusion about his birth year, which is also documented as 1974.",
+        "Model_Judge": "Incorrect. The birth year conflict in the text does not match the triple. The triple includes a problematic contradiction but it is not represented in the text. The text should point out that both 1891 and 1974 are listed as his birth year.",
+        "Author_Judge": "Good. Added narrative, but this is an issue with the chronology of the triples, not the output."
+    },
+    "4_Id20_University_Counter": {
+        "key": "4_Id20_University_Counter",
+        "input": "['Los_Angeles_Rams | country | Dublin', 'Los_Angeles_Rams | numberOfStudents | 700', 'Dublin | leader | Vladimir_Putin', 'Dublin | legislature | Federalism']",
+        "output": "The Los Angeles Rams, based in Dublin, have about 700 students associated with them. The city of Dublin, led by Vladimir Putin, operates under a federalism legislative system.",
+        "Model_Judge": "Incorrect. It's strange to say a sports team like the Los Angeles Rams is based in a country like Dublin. Also, the phrase \"have about 700 students associated with them\" is not well defined and unclear.",
+        "Author_Judge": "Good"
+    },
+    "2_Id162_Food_Counter": {
+        "key": "2_Id162_Food_Counter",
+        "input": "['A_Loyal_Character_Dancer | ingredient | Water', 'A_Loyal_Character_Dancer | country | Adare']",
+        "output": "The novel \"A Loyal Character Dancer\" is from the country of Adare. An essential ingredient involved in creating this literary masterpiece is metaphorically water.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id245_SportsTeam_Counter": {
+        "key": "1_Id245_SportsTeam_Counter",
+        "input": "['Alex_Day | club | FC_Kuban_Krasnodar']",
+        "output": "Alex Day is a player for the club FC Kuban Krasnodar.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id2_SportsTeam_Counter": {
+        "key": "1_Id2_SportsTeam_Counter",
+        "input": "['Atlanta_Falcons | season | 2014\u201315_Serie_A']",
+        "output": "The Atlanta Falcons participated in the 2014-2015 Serie A season.",
+        "Model_Judge": "Incorrect. The Atlanta Falcons are an American football team and do not participate in the Serie A, which is an Italian soccer league. There seems to be an error in the triple.",
+        "Author_Judge": "Good"
+    },
+    "1_Id33_MeanOfTransportation_Counter": {
+        "key": "1_Id33_MeanOfTransportation_Counter",
+        "input": "['Adare_Manor | owner | Tom_Lyle']",
+        "output": "Adare Manor is owned by Tom Lyle.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id91_Athlete_Counter": {
+        "key": "1_Id91_Athlete_Counter",
+        "input": "['Felipe_Gonz\u00e1lez | birthPlace | Nottingham']",
+        "output": "Felipe Gonz\u00e1lez was born in Nottingham.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id68_CelestialBody_Counter": {
+        "key": "2_Id68_CelestialBody_Counter",
+        "input": "['1089_Tama | epoch | \"1983-10-03\"', '1089_Tama | orbitalPeriod | 737']",
+        "output": "As of the epoch of October 3, 1983, 1089 Tama has an orbital period of 737 days.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id205_Building_Fict": {
+        "key": "1_Id205_Building_Fict",
+        "input": "[\"'Twin Rivers' | country | Havenshire\"]",
+        "output": "Twin Rivers' is situated in the country of Havenshire.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id64_City_Fict": {
+        "key": "3_Id64_City_Fict",
+        "input": "[\"'Evergreen' | isPartOf | (Springfield,Illinois)\", \"(Springfield,Illinois) | isPartOf | ('Maricopa', 'Arizona')\", \"'Evergreen' | country | Ardonia\"]",
+        "output": "Evergreen, which is part of Springfield, Illinois, and hence belonging to Maricopa, Arizona, is located in the country of Ardonia.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id88_WrittenWork_Fict": {
+        "key": "5_Id88_WrittenWork_Fict",
+        "input": "[\"Tidewatch | leader | 'Leo Diaz'\", 'Tidewatch | demonym | Aucklander', 'Tidewatch | capital | (Carson City,Nevada)', \"'Whispering Pines' | country | Tidewatch\", 'Tidewatch | ethnicGroup | Native_Aucklander_in_the_Tidewatch']",
+        "output": "Tidewatch, led by Leo Diaz, has its capital in Carson City, Nevada. Known for its ethnic group, Native Aucklander in Tidewatch, its residents are commonly referred to as Aucklanders. A place named 'Whispering Pines' is a part of this country.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id153_MeanOfTransportation_Fict": {
+        "key": "3_Id153_MeanOfTransportation_Fict",
+        "input": "[\"Celestial Thunder | finalFlight | '2032-12-05'\", 'Celestial Thunder | launchSite | North Korea', 'Celestial Thunder | manufacturer | TechNova Solutions']",
+        "output": "\"Celestial Thunder\" was manufactured by TechNova Solutions and its final flight took place on December 5, 2032. Impressively, the spacecraft was launched from North Korea.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id68_Building_Fict": {
+        "key": "3_Id68_Building_Fict",
+        "input": "['Waterside Condos | location | Stellara', \"Waterside Condos | architect | 'Elijah Evans'\", 'Waterside Condos | completionDate | 2007']",
+        "output": "The Waterside Condos, designed by architect Elijah Evans, are located in Stellara and were completed in 2007.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id35_SportsTeam_Fict": {
+        "key": "5_Id35_SportsTeam_Fict",
+        "input": "['Bayview Buccaneers | ground | Silverlake College', \"Silverlake College | state | 'Valley Forge'\", 'Silverlake College | country | Jadewind', \"Akron,_'Valley Forge' | isPartOf | Summit_County,_'Valley Forge'\", \"Silverlake College | city | Akron,_'Valley Forge'\"]",
+        "output": "The Bayview Buccaneers play their home games at Silverlake College, located in Akron, 'Valley Forge' within the state of 'Valley Forge', Jadewind. Akron is part of Summit County in 'Valley Forge'.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id34_SportsTeam_Fict": {
+        "key": "2_Id34_SportsTeam_Fict",
+        "input": "[\"Mountain Ridge Falcons | manager | 'Lila Nguyen'\", \"'Lila Nguyen' | club | Highland Park Owls\"]",
+        "output": "The Mountain Ridge Falcons are managed by Lila Nguyen, who is also associated with the Highland Park Owls club.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id84_Astronaut_Fict": {
+        "key": "5_Id84_Astronaut_Fict",
+        "input": "[\"'Jason Tucker' | selectedByNasa | 1983\", \"'Jason Tucker' | birthDate | '2031-08-14'\", \"'Jason Tucker' | occupation | Teacher\", \"'Jason Tucker' | birthPlace | (Montpelier,Vermont)\", \"'Jason Tucker' | almaMater | '10_January_2011_Massachusetts Institute of Technology'\"]",
+        "output": "Jason Tucker, born on August 14, 2031, in Montpelier, Vermont, is a teacher and an alumnus of Massachusetts Institute of Technology. Surprisingly, he was selected by NASA in 1983.",
+        "Model_Judge": "Incorrect. There is a chronological inconsistency. Jason Tucker can not have been selected by NASA in 1983 if he was born in 2031.",
+        "Author_Judge": "Incorrect. Changed name of university entity/omitted date."
+    },
+    "4_Id23_Astronaut_Fict": {
+        "key": "4_Id23_Astronaut_Fict",
+        "input": "[\" | status | 'reviewing performance evaluations'\", ' | birthPlace | (Boise,Idaho)', ' | selectedByNasa | 1980', \" | birthDate | '2031-08-14'\"]",
+        "output": "Born in Boise, Idaho on August 14, 2031, they were selected by NASA in 1980. Currently, they're in the process of reviewing performance evaluations.",
+        "Model_Judge": "Incorrect. The events are out of chronological order. It should say that they were born in 2031 and selected by NASA afterwards, not in 1980.",
+        "Author_Judge": "Good"
+    },
+    "4_Id79_MeanOfTransportation_Fict": {
+        "key": "4_Id79_MeanOfTransportation_Fict",
+        "input": "['Quicksilver Solutions_1000_GT_Coup\u00e9 | designCompany | Veritas Ventures', \"Veritas Ventures | foundedBy | 'Sophia Griffin'\", 'Quicksilver Solutions_1000_GT_Coup\u00e9 | manufacturer | Quicksilver Solutions', \"Quicksilver Solutions | foundationPlace | 'Alderidge'\"]",
+        "output": "The Quicksilver Solutions 1000 GT Coup\u00e9 was designed by Veritas Ventures, a company founded by Sophia Griffin. Not only was it designed but also manufactured by Quicksilver Solutions, a company established in Alderidge.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id6_Monument_Fict": {
+        "key": "4_Id6_Monument_Fict",
+        "input": "['Guardian Angel Memorial | location | Glimmeria', \"Guardian Angel Memorial | state | 'Rockwell'\", 'Guardian Angel Memorial | established | 2014', 'Guardian Angel Memorial | category | Cultural Icons']",
+        "output": "The Guardian Angel Memorial, a Cultural Icon, was established in 2014 and is situated in the state of 'Rockwell' in Glimmeria.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id185_Artist_Fict": {
+        "key": "4_Id185_Artist_Fict",
+        "input": "[\"'Leo Diaz' | associatedBand/associatedMusicalArtist | Silver Linings\", \"'Leo Diaz' | associatedBand/associatedMusicalArtist | Midnight Riders\", '\\'Leo Diaz\\' | associatedBand/associatedMusicalArtist | \"Armin Van Buuren, Midnight Riders, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, Alexandra Badoi\"', \"'Leo Diaz' | genre | Reggae Chillwave\"]",
+        "output": "Leo Diaz, known for his reggae chillwave music, is associated with several musical artists and bands. This includes Silver Linings, Midnight Riders, and a collective ensemble of artists such as Armin Van Buuren, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, Alexandra Badoi, and others.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id121_CelestialBody_Fict": {
+        "key": "2_Id121_CelestialBody_Fict",
+        "input": "LunaX-9 | escapeVelocity | 45\nLunaX-9 | apoapsis | 3.5 miles",
+        "output": "The escape velocity of LunaX-9 is 45 km/s, with an apoapsis of 3.5 miles.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id47_Athlete_Fict": {
+        "key": "5_Id47_Athlete_Fict",
+        "input": "['Maple Grove Trojans | ground | Royal Reign Stadium', \"'Liam Roberts' | youthclub | Maple Grove Trojans\", \"'Liam Roberts' | club | Golden Plains Eagles\", \"Golden Plains Eagles | manager | 'Lila Nguyen'\", \"'Liam Roberts' | club | Pine Ridge Bears\"]",
+        "output": "Liam Roberts, who played at youth level for the Maple Grove Trojans who play at Royal Reign Stadium, is now playing under the manager Lila Nguyen for the Golden Plains Eagles. He has also been signed to the Pine Ridge Bears in the past.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id247_Artist_Fict": {
+        "key": "1_Id247_Artist_Fict",
+        "input": "['Synthpop | musicFusionGenre | Future Funk']",
+        "output": "Future funk is a fusion genre of synthpop.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id62_Artist_Fict": {
+        "key": "2_Id62_Artist_Fict",
+        "input": "[\"'Ava Morales' | birthPlace | (Albany,New York)\", \"'Ava Morales' | birthPlace | (Montpelier,Vermont)\"]",
+        "output": "Ava Morales was born in Albany, New York, but also has ties to Montpelier, Vermont.",
+        "Model_Judge": "Incorrect. The text misrepresents the triple as it states \"Ava Morales was born in Albany, New York, but also has ties to Montpelier, Vermont\". The triple states that she was born in both places which is not possible.",
+        "Author_Judge": "Good"
+    },
+    "1_Id53_Airport_Fict": {
+        "key": "1_Id53_Airport_Fict",
+        "input": "['Memory Lane: The Smith Family Reunion | nativeName | Isabelle Kim']",
+        "output": "The original name of \"Memory Lane: The Smith Family Reunion\" is Isabelle Kim.",
+        "Model_Judge": "Incorrect. The phrase \"native name\" has been incorrectly interpreted as \"original name\". Instead, it should say something like \"Isabelle Kim is the native name for 'Memory Lane: The Smith Family Reunion'\".",
+        "Author_Judge": "Good"
+    },
+    "2_Id53_Company_Fict": {
+        "key": "2_Id53_Company_Fict",
+        "input": "['National Health Administration | location | Irisara', 'National Health Administration | location | Glimmeria']",
+        "output": "The National Health Administration has two locations, one in Irisara and another in Glimmeria.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id167_CelestialBody_Fict": {
+        "key": "1_Id167_CelestialBody_Fict",
+        "input": "[\"'Claire Adams' | doctoralStudent | 'Maxwell Carter'\"]",
+        "output": "Claire Adams mentored Maxwell Carter as her doctoral student.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id51_Athlete_Fict": {
+        "key": "5_Id51_Athlete_Fict",
+        "input": "['Bayview Buccaneers | city | (Augusta,Maine)', \"'Lucas Cooper' | debutTeam | Roanoke Tech College\", \"'Lucas Cooper' | formerTeam | Bayview Buccaneers\", \"Roanoke Tech College | owner | 'Nora Thompson'\", 'Roanoke Tech College | city | (Boise,Idaho)']",
+        "output": "Lucas Cooper, who made his debut with Roanoke Tech College owned by Nora Thompson in Boise, Idaho, once played for the Bayview Buccaneers based in Augusta, Maine.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id72_Airport_Fict": {
+        "key": "4_Id72_Airport_Fict",
+        "input": "['Rainbow Ridge Airfield | operatingOrganisation | Russian Airborne Troops', 'Russian Airborne Troops | attackAircraft | VortexForce 950', 'Russian Airborne Troops | battle | Operation Market Garden', 'Russian Airborne Troops | aircraftFighter | StratoWing X200']",
+        "output": "Russian Airborne Troops, which participated in Operation Market Garden, operate the Rainbow Ridge Airfield. The organization uses the VortexForce 950 as its attack aircraft and the StratoWing X200 as a fighter aircraft.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id125_Food_Fict": {
+        "key": "5_Id125_Food_Fict",
+        "input": "['Coconut curry shrimp with jasmine rice | country | Korinthos', 'Korinthos | leader | ', 'Coconut curry shrimp with jasmine rice | ingredient | Wild-caught salmon', 'Coconut curry shrimp with jasmine rice | dishVariation | Tomato basil mozzarella panini', 'Tomato basil mozzarella panini | dishVariation | Greek yogurt']",
+        "output": "Coconut curry shrimp with jasmine rice is a dish originating from Korinthos, enhanced by the ingredient, wild-caught salmon. This dish has various variations; one of them is a tomato basil mozzarella panini which has its own variant of Greek yogurt.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id146_Athlete_Fict": {
+        "key": "1_Id146_Athlete_Fict",
+        "input": "[\"'Owen Parker' | club | Southern Pines Panthers\"]",
+        "output": "Owen Parker is a member of the club, Southern Pines Panthers.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id173_Airport_Fict": {
+        "key": "5_Id173_Airport_Fict",
+        "input": "[\"'Oakwood Hills' | isPartOf | \", 'Department of Disaster Management | operatingOrganisation | Unity for Prosperity Party', 'Unity for Prosperity Party | headquarter | Riverside', \"Department of Disaster Management | location | 'Oakwood Hills'\", \"'Oakwood Hills' | country | Glimmeria\"]",
+        "output": "The Department of Disaster Management, operated by the Unity for Prosperity Party with its headquarters in Riverside, is located in 'Oakwood Hills'. This town is a part of the country, Glimmeria.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id163_WrittenWork_Fict": {
+        "key": "3_Id163_WrittenWork_Fict",
+        "input": "[\"Twilight's Embrace | oclcNumber | 10000000\", \"Twilight's Embrace | author | 'Claire Adams'\", \"Twilight's Embrace | mediaType | Financial Advice Podcast\"]",
+        "output": "\"Twilight's Embrace\" is a financial advice podcast created by the author Claire Adams.",
+        "Model_Judge": "Incorrect. The triple 'Twilight's Embrace | oclcNumber | str(random.randint(10000000' is not represented in the text.",
+        "Author_Judge": "Incorrect, missing oclc number."
+    },
+    "4_Id159_City_Fict": {
+        "key": "4_Id159_City_Fict",
+        "input": "['Tarrant_County,_Emberon | largestCity | Fort_Worth,_Emberon', 'Arlington,_Emberon | isPartOf | Tarrant_County,_Emberon', 'Arlington,_Emberon | isPartOf | Emberon', 'Emberon | largestCity | Fairfield']",
+        "output": "Tarrant County, in Emberon, is home to its largest city, Fort Worth. Arlington is also a part of Tarrant County and Emberon as a whole. Contrarily, Emberon's largest city is Fairfield.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id104_Politician_Fict": {
+        "key": "2_Id104_Politician_Fict",
+        "input": "[\"'Isaac Rivera' | almaMater | '03_April_2013_Cambridge University'\", \"'Isaac Rivera' | birthPlace | (Topeka,Kansas)\"]",
+        "output": "Isaac Rivera, born in Topeka, Kansas, is an alumnus of Cambridge University, having graduated on 03 April 2013.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id140_Politician_Fict": {
+        "key": "5_Id140_Politician_Fict",
+        "input": "[\"1st Armored Division | commander | 'Lucas Cooper'\", \"'Olivia Patel' | inOfficeWhileVicePresident | 'Zoe Wilson'\", \"'Zoe Wilson' | predecessor | 'Jason Tucker'\", \"'Olivia Patel' | successor | Sunrise Spectra\", \"'Olivia Patel' | militaryBranch | 1st Armored Division\"]",
+        "output": "Lucas Cooper is the commander of the 1st Armored Division, in which 'Olivia Patel' served. She later presided in the office while 'Zoe Wilson' was Vice President, after 'Zoe Wilson' had succeeded 'Jason Tucker'. 'Olivia Patel' was then succeeded by Sunrise Spectra.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id46_Politician_Fict": {
+        "key": "4_Id46_Politician_Fict",
+        "input": "[\"'Liam Roberts' | successor | Olympus Nova\", \"'Liam Roberts' | inOfficeWhileVicePresident | 'Owen Parker'\", \"'Owen Parker' | predecessor | 'Jason Tucker'\", \"'Owen Parker' | militaryBranch | Ireland\"]",
+        "output": "Liam Roberts was in office while Owen Parker was Vice President. Owen Parker succeeded Jason Tucker and served in the military branch of Ireland. Liam Roberts was later succeeded by Olympus Nova.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id41_SportsTeam_Fict": {
+        "key": "5_Id41_SportsTeam_Fict",
+        "input": "[\"Phoenix Arena | leader | 'Liam Roberts'\", 'Phoenix Arena | officialLanguage | Valenlorn', 'Phoenix Arena | demonym | Berliners', 'Phoenix Arena | capital | (Honolulu,Hawaii)', 'Southern Pines Panthers | ground | Phoenix Arena']",
+        "output": "Phoenix Arena, led by Liam Roberts and having Valenlorn as its official language, is based in Honolulu, Hawaii and is the home ground for the Southern Pines Panthers. The inhabitants of the arena are known as Berliners.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id100_MeanOfTransportation_Fict": {
+        "key": "4_Id100_MeanOfTransportation_Fict",
+        "input": "['Amplify Labs_TLX | manufacturer | Skybridge Solutions', 'Skybridge Solutions | division | Amplify Labs', 'Amplify Labs_TLX | engine | Inline-6', 'Amplify Labs_TLX | relatedMeanOfTransportation | Nebula Cruiser']",
+        "output": "The Amplify Labs TLX is a product of Skybridge Solutions, which is a division of Amplify Labs. The vehicle operates with an Inline-6 engine and shares similarities with the Nebula Cruiser.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id34_MeanOfTransportation_Fict": {
+        "key": "4_Id34_MeanOfTransportation_Fict",
+        "input": "['Island Oasis | builder | Ferndale', 'Island Oasis | cylinderCount | 719', 'Island Oasis | engine | V719_engine', 'Island Oasis | length | 10.3']",
+        "output": "Island Oasis, built by Ferndale, has a V719 engine with 719 cylinders, and it measures 10.3 units in length.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id73_SportsTeam_Fict": {
+        "key": "4_Id73_SportsTeam_Fict",
+        "input": "['Valley Hills Raiders | fullName | Miles Cooper', 'Valley Hills Raiders | ground | Liberty Park', 'Valley Hills Raiders | numberOfMembers | 683', 'Valley Hills Raiders | season | 2038 World Cup Qualifiers']",
+        "output": "The Valley Hills Raiders, which counts 683 members, and has a ground in Liberty Park, played their season in the 2038 World Cup Qualifiers. Their full team includes a certain individual by the name of Miles Cooper.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id59_Politician_Fict": {
+        "key": "3_Id59_Politician_Fict",
+        "input": "Zoe Wilson' | office | Communications Director\n'Zoe Wilson' | deathPlace | 'Granite Ridge'\n'Zoe Wilson' | birthPlace | (Concord,New Hampshire)",
+        "output": "Zoe Wilson, born in Concord, New Hampshire, served as Communications Director before her demise in Granite Ridge.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id180_Politician": {
+        "key": "2_Id180_Politician",
+        "input": "Alfons_Gorbach | birthPlace | Tyrol_(state)\nAlfons_Gorbach | birthPlace | Imst",
+        "output": "Alfons Gorbach birthplace was in Imst in Tyrol state.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id244_Food_Counter": {
+        "key": "3_Id244_Food_Counter",
+        "input": "Pakora | mainIngredient | Taro\nPakora | course | Bacon_sandwich\nBacon_sandwich | dishVariation | Vegetable",
+        "output": "The main ingredient of Pakora, a dish served as a Bacon sandwich variant, is Taro. This combination puts a vegetable twist on the original sandwich recipe.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id182_Athlete_Counter": {
+        "key": "1_Id182_Athlete_Counter",
+        "input": "Tim_Brooke-Taylor | birthPlace | Staten_Island",
+        "output": "Tim Brooke-Taylor was born in Staten Island.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id78_SportsTeam": {
+        "key": "1_Id78_SportsTeam",
+        "input": "A.S._Roma | numberOfMembers | 70634",
+        "output": "AS Roma has 70634 members.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id173_Artist_Counter": {
+        "key": "2_Id173_Artist_Counter",
+        "input": "Dane_Whitman_Black_Knight_(comicsCharacter) | associatedBand/associatedMusicalArtist | Jwaydan_Moyine\nDane_Whitman_Black_Knight_(comicsCharacter) | associatedBand/associatedMusicalArtist | Glass_Tiger",
+        "output": "Dane Whitman, a character known as the Black Knight in the comics, is associated with the musical artists Jwaydan Moyine and Glass Tiger.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id61_Politician_Fict": {
+        "key": "3_Id61_Politician_Fict",
+        "input": "Thunderbolt X | office | Election Coordinator\nThunderbolt X | party | Department of Disaster Management\nThunderbolt X | successor | Raptor Eclipse",
+        "output": "Thunderbolt X, of the Department of Disaster Management party, held the office of the Election Coordinator before being succeeded by Raptor Eclipse.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id59_University_Fict": {
+        "key": "4_Id59_University_Fict",
+        "input": "Department of Biology | academicStaffSize | 42\nDepartment of Biology | numberOfStudents | 194\nDepartment of Biology | affiliation | Tech Innovators Collective\nDepartment of Biology | established | 1985",
+        "output": "Established in 1985, the Department of Biology is affiliated with the Tech Innovators Collective. With an academic staff of 42 professionals, the department supports a student body of 194.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id42_ComicsCharacter_Fict": {
+        "key": "2_Id42_ComicsCharacter_Fict",
+        "input": "Love Connection | series | Culinary Adventures\nLove Connection | creator | 'Zoe Wilson'",
+        "output": "The series \\\"Culinary Adventures\\\" is a creation by Zoe Wilson under the franchise \\\"Love Connection\\\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect. Love Connection Should be the Series."
+    },
+    "2_Id48_Artist": {
+        "key": "2_Id48_Artist",
+        "input": "Abradab | genre | Hip_hop_music\nHip_hop_music | stylisticOrigin | Disco",
+        "output": "The musical genre of Abradab is hip hop music, the stylistic origins of which, is disco.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id178_Athlete_Fict": {
+        "key": "1_Id178_Athlete_Fict",
+        "input": "Sophia Griffin' | club | Thunder Valley Hawks",
+        "output": "Sophia Griffin is a member of the Thunder Valley Hawks club.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id2_Food": {
+        "key": "4_Id2_Food",
+        "input": "Ajoblanco | country | Spain\nAjoblanco | mainIngredient | \"Bread, almonds, garlic, water, olive oil\"\nAjoblanco | region | Andalusia\nAjoblanco | ingredient | Olive_oil",
+        "output": "Ajoblanco originates from the Andalusia region of Spain. Its main ingredients are:bread, almonds, garlic, water, and olive oil.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id195_City_Fict": {
+        "key": "1_Id195_City_Fict",
+        "input": "Lakewood Springs' | language | Dracorin",
+        "output": "The language spoken in Lakewood Springs is Dracorin.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id146_Food_Fict": {
+        "key": "1_Id146_Food_Fict",
+        "input": "Oakwood Hills' | country | Belsoria",
+        "output": "The town of Oakwood Hills is located in the country of Belsoria.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id271_Athlete_Counter": {
+        "key": "1_Id271_Athlete_Counter",
+        "input": "Angola,_Indiana | isPartOf | Grand_Chute,_Wisconsin",
+        "output": "The city of Angola, Indiana is a part of Grand Chute, Wisconsin.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id34_Athlete": {
+        "key": "4_Id34_Athlete",
+        "input": "Adam_McQuaid | draftTeam | Columbus_Blue_Jackets\nColumbus_Blue_Jackets | generalManager | Jarmo_Kek\u00e4l\u00e4inen\nAdam_McQuaid | club | Boston_Bruins\nBoston_Bruins | city | Boston",
+        "output": "Adam McQuaid plays for the Boston Bruins in Boston. His draft team was the Columbus Blue Jackets whose general manager is Jarmo Kekalainen.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id8_Politician_Counter": {
+        "key": "3_Id8_Politician_Counter",
+        "input": "Paulo_Sousa | almaMater | 1_Decembrie_1918_University\n1_Decembrie_1918_University | affiliation | Greater_London_Authority\nPaulo_Sousa | birthPlace | Rostock",
+        "output": "Paulo Sousa, born in Rostock, is an alumnus of 1 Decembrie 1918 University. The university is affiliated with the Greater London Authority.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id130_Athlete_Counter": {
+        "key": "3_Id130_Athlete_Counter",
+        "input": "Mike_Akhigbe | club | Germany_national_under-21_football_team\nd | \"Bryning Lane\"\nMike_Akhigbe | youthclub | Clyde_F.C.",
+        "output": "Mike Akhigbe is associated with the Germany National Under-21 Football Team and his youth club was Clyde F.C., which has its ground at \\\"Bryning Lane\\\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id41_ComicsCharacter": {
+        "key": "3_Id41_ComicsCharacter",
+        "input": "Big_Hero_6_(film) | distributor | Walt_Disney_Studios_Motion_Pictures\nBaymax | series | Big_Hero_6_(film)\nBig_Hero_6_(film) | starring | Maya_Rudolph",
+        "output": "Baymax is a character in the film Big Hero 6, which was distributed by Walt Disney Studios Motion Pictures and starred Maya Rudolph.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id76_Astronaut": {
+        "key": "4_Id76_Astronaut",
+        "input": "William_Anders | dateOfRetirement | \"1969-09-01\"\nWilliam_Anders | selectedByNasa | 1963\nWilliam_Anders | birthPlace | British_Hong_Kong\nWilliam_Anders | mission | Apollo_8",
+        "output": "William Anders, a crew member of Apollo 8, was born in British Hong Kong, and was selected by NASA in 1963. He retired September 1, 1969.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id39_CelestialBody": {
+        "key": "1_Id39_CelestialBody",
+        "input": "(66063)_1998_RO1 | periapsis | 41498400000.0",
+        "output": "66063 1998 RO1 has a periapsis of 41498400000.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "2_Id28_Building_Fict": {
+        "key": "2_Id28_Building_Fict",
+        "input": "Stonegate Villas | location | Ferndale\nStonegate Villas | floorCount | 719",
+        "output": "Stonegate Villas, located in Ferndale, has a total of 719 floors.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id96_Food_Fict": {
+        "key": "1_Id96_Food_Fict",
+        "input": "Oakwood Meadows Condos | region | Goldenleaf Meadow",
+        "output": "Oakwood Meadows Condos are located in the region of Goldenleaf Meadow.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id27_Astronaut_Counter": {
+        "key": "1_Id27_Astronaut_Counter",
+        "input": "Nigerian_Air_Force | commander | Arthur_Blank",
+        "output": "The Nigerian Air Force is commanded by Arthur Blank",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id174_Building_Fict": {
+        "key": "4_Id174_Building_Fict",
+        "input": "Stellara | postalCode | MN34 5OP\nSycamore Ridge Apartments | architect | 'Olivia Patel'\n'Olivia Patel' | origin | Stellara\nStellara | leader | 'Jason Tucker'",
+        "output": "Stellara, a town led by Jason Tucker, and known for its architect Olivia Patel is identified by the postal code MN34 5OP. One of the significant contributions to architecture in the town is the Sycamore Ridge Apartments, designed by Olivia Patel.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect. Stellara is not known for Olivia Patel. She just is from there."
+    },
+    "3_Id198_WrittenWork_Fict": {
+        "key": "3_Id198_WrittenWork_Fict",
+        "input": "Evergreen Innovations | founder | 'Isaac Rivera'\nJournal of Urban Planning and Development | oclcNumber | 99999999)) for _ in range(20)\nJournal of Urban Planning and Development | publisher | Evergreen Innovations",
+        "output": "Evergreen Innovations, founded by Isaac Rivera, is the publisher of the Journal of Urban Planning and Development, which has an oclcNumber of 99999999.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "3_Id48_ComicsCharacter_Fict": {
+        "key": "3_Id48_ComicsCharacter_Fict",
+        "input": "Maxwell Carter' | creator | 'Elena Rodriguez'\n'Maxwell Carter' | creator | 'Leo Diaz'\n'Maxwell Carter' | alternativeName | Elena Morales",
+        "output": "Maxwell Carter, alternatively known as Elena Morales, was co-created by Elena Rodriguez and Leo Diaz.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id137_Politician": {
+        "key": "1_Id137_Politician",
+        "input": "Albert_B._White | activeYearsEndDate | 1905-03-04",
+        "output": "Albert B. White finished his career on March 4th 1905.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id61_Athlete_Fict": {
+        "key": "1_Id61_Athlete_Fict",
+        "input": "Olivia Patel' | club | Sunset Beach Suns",
+        "output": "Olivia Patel is a member of the Sunset Beach Suns club.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id23_University": {
+        "key": "5_Id23_University",
+        "input": "Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600\nAccademia_di_Architettura_di_Mendrisio | dean | Mario_Botta\nAccademia_di_Architettura_di_Mendrisio | city | Mendrisio\nAccademia_di_Architettura_di_Mendrisio | established | 1996\nAccademia_di_Architettura_di_Mendrisio | academicStaffSize | 100",
+        "output": "The Accademia di Architettura di Mendrisio in Switzerland was established 1996. It has a staff of 100 and a student population of 600. The dean is Mario Botta.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect. The triples never say Mendirisio is in Switzerland. Extra information."
+    },
+    "1_Id47_Airport_Fict": {
+        "key": "1_Id47_Airport_Fict",
+        "input": "Pinecrest Regional Airport | runwayName | Aurora Chambers",
+        "output": "Aurora Chambers is the name of the runway at Pinecrest Regional Airport.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "1_Id210_Politician_Fict": {
+        "key": "1_Id210_Politician_Fict",
+        "input": "Liam Roberts' | birthDate | '2025-12-30'",
+        "output": "Liam Roberts was born on 30th December 2025.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "4_Id20_Monument_Fict": {
+        "key": "4_Id20_Monument_Fict",
+        "input": "Bureau of Immigration Services | designer | 'Isaac Rivera'\nQuellonia | leader | 'Lucas Cooper'\nBureau of Immigration Services | inaugurationDate | '2032-12-05'\nBureau of Immigration Services | location | Quellonia",
+        "output": "Isaac Rivera is the designer of the Bureau of Immigration Services, which was inaugurated on December 5, 2032. This institution is located in Quellonia, where Lucas Cooper is the leader.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    }
+}
