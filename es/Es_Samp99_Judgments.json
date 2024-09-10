@@ -1,0 +1,1190 @@
+{
+    "5_Id40_MeanOfTransportation_Counter": {
+        "triple": [
+            "American_submarine_NR-1 | builder | Atlanta",
+            "Atlanta | leader | Julia_Morgan",
+            "Atlanta | demonym | Italians",
+            "Atlanta | language | Filipino_language",
+            "American_submarine_NR-1 | builder | \"Cleveland, Ohio 44114\""
+        ],
+        "gen_text": "El submarino americano NR-1 fue construido en Atlanta y en Cleveland, Ohio, con el código postal 44114. Atlanta, ciudad liderada por Julia Morgan, tiene a los italianos como denominación de sus habitantes y el idioma filipino como lengua predominante.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id88_WrittenWork_Counter": {
+        "triple": [
+            "Hong_Kong | leader | Stan_Lee",
+            "Hong_Kong | demonym | Germans",
+            "Hong_Kong | capital | \"Faversham, Kent, England\"",
+            "Philippines | country | Hong_Kong",
+            "Hong_Kong | ethnicGroup | Moro_people"
+        ],
+        "gen_text": "Hong Kong, liderado por Stan Lee, tiene como gentilicio \"alemanes\" y su capital es Faversham, Kent, Inglaterra. El grupo étnico Moro es prominente en Hong Kong. Las Filipinas son un país dentro de Hong Kong.",
+        "Model_Judge": "Incorrect. The sentence \"Las Filipinas son un país dentro de Hong Kong\" incorrectly suggests that the Philippines is a country within Hong Kong, contrary to the triple \"Philippines | country | Hong Kong\".\nREWRITE\nHong Kong, liderado por Stan Lee, tiene como gentilicio \"alemanes\" y su capital es Faversham, Kent, Inglaterra. El grupo étnico Moro es prominente en Hong Kong. Hong Kong es un país que pertenece a las Filipinas.",
+        "Author_Judge": "Good"
+    },
+    "5_Id83_Astronaut_Counter": {
+        "triple": [
+            "Abraham_A._Ribicoff | mission | Apollo_12",
+            "Abraham_A._Ribicoff | timeInSpace | \"13017.0\"(minutes)",
+            "Apollo_12 | crewMembers | Joseph_Stalin",
+            "Abraham_A._Ribicoff | servedAsChiefOfTheAstronautOfficeIn | 1966",
+            "Apollo_12 | operator | Building_materials"
+        ],
+        "gen_text": "Abraham A. Ribicoff participó en la misión Apolo 12 y estuvo en el espacio durante 13017.0 minutos. Además, Ribicoff se desempeñó como Jefe de la Oficina de Astronautas en 1966. El Apolo 12 contó con Joseph Stalin como uno de sus miembros de la tripulación y fue operado por materiales de construcción.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id50_Athlete_Counter": {
+        "triple": [
+            "Alan_B._Miller_Hall | season | 2014–15_Eredivisie",
+            "Alfred_Garth_Jones | club | Alan_B._Miller_Hall",
+            "Alfred_Garth_Jones | club | Hull_City_A.F.C.",
+            "Alan_B._Miller_Hall | manager | Jack_Kirby",
+            "Alan_B._Miller_Hall | chairman | Austin_Fernando"
+        ],
+        "gen_text": "Alan B. Miller Hall, que tuvo su temporada en la Eredivisie 2014-15, está dirigido por Jack Kirby y presidido por Austin Fernando. Alfred Garth Jones participa en este club, así como en el Hull City A.F.C.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id136_Building_Counter": {
+        "triple": [
+            "American_Locomotive_Company | leader | Luciano_Spalletti",
+            "American_Locomotive_Company | leader | Steve_Davis_(footballer)",
+            "Kourou,_French_Guiana | isPartOf | Clayton,_Winnebago_County,_Wisconsin",
+            "Amsterdam_Airport_Schiphol | country | American_Locomotive_Company",
+            "Amsterdam_Airport_Schiphol | location | Kourou,_French_Guiana"
+        ],
+        "gen_text": "La American Locomotive Company tiene como líderes a Luciano Spalletti y Steve Davis, quien es futbolista. Kourou, en la Guayana Francesa, es parte de Clayton, en el Condado de Winnebago, Wisconsin. El Aeropuerto de Ámsterdam Schiphol, aunque situado en Kourou, Guayana Francesa, pertenece al país de la American Locomotive Company.",
+        "Model_Judge": "Incorrect. \"American Locomotive Company\" is not a country.\nREWRITE\nLa American Locomotive Company tiene como líderes a Luciano Spalletti y Steve Davis, quien es futbolista. Kourou, en la Guayana Francesa, es parte de Clayton, en el Condado de Winnebago, Wisconsin. El Aeropuerto de Ámsterdam Schiphol está situado en Kourou, Guayana Francesa.",
+        "Author_Judge": "Good"
+    },
+    "5_Id64_CelestialBody_Counter": {
+        "triple": [
+            "(410777)_2009_FD | epoch | 1857-03-03",
+            "(410777)_2009_FD | escapeVelocity | 0.0999 (kilometrePerSeconds)",
+            "(410777)_2009_FD | formerName | \"Isidro Metapán\"",
+            "(410777)_2009_FD | orbitalPeriod | 296521000.0 (kilometres)",
+            "(410777)_2009_FD | periapsis | 416136000000.0"
+        ],
+        "gen_text": "El (410777) 2009 FD, anteriormente conocido como \"Isidro Metapán\", tiene una época registrada en el 3 de marzo de 1857. Su velocidad de escape es de 0.0999 kilómetros por segundo y su período orbital es de 296521000.0 kilómetros. Su periapsis es de 416136000000.0.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id145_Building_Counter": {
+        "triple": [
+            "Azerbaijan | capital | Mendrisio",
+            "Azerbaijan | leaderTitle | President_of_the_Azerbaijan",
+            "Azerbaijan | leader | Mulatu_Teshome",
+            "Azerbaijan | leader | Hugo_Sperrle",
+            "AZAL_Arena | location | Azerbaijan"
+        ],
+        "gen_text": "Azerbaiyán tiene su capital en Mendrisio. La figura líder del país es el presidente de Azerbaiyán, papel ocupado por Mulatu Teshome y Hugo Sperrle. La AZAL Arena se encuentra situada en Azerbaiyán.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id30_MeanOfTransportation_Counter": {
+        "triple": [
+            "Alvis_Speed_25 | countryOrigin | Benton_County,_Oregon",
+            "Benton_County,_Oregon | ethnicGroup | Koreans_in_Japan",
+            "Benton_County,_Oregon | demonym | British_people",
+            "Benton_County,_Oregon | capital | Manitoba",
+            "Benton_County,_Oregon | anthem | O_Canada"
+        ],
+        "gen_text": "El Alvis Speed 25 se originó en el país de Benton County, Oregón. Benton County, Oregón, tiene como grupo étnico a los coreanos en Japón. Su gentilicio son las personas británicas y la capital de este lugar es Manitoba. Su himno es \"O Canadá\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id153_Building_Counter": {
+        "triple": [
+            "France | language | Vietnamese_language",
+            "France | leaderTitle | President_of_the_France",
+            "France | leader | Iwan_P._Williams",
+            "Atatürk_Monument_(İzmir) | location | France",
+            "France | ethnicGroup | White_Americans"
+        ],
+        "gen_text": "Francia, donde se encuentra el Monumento a Atatürk en İzmir, tiene el vietnamita como idioma y está liderada por Iwan P. Williams, quien ostenta el título de Presidente de Francia. El grupo étnico predominante en el país son los americanos blancos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id96_Building_Counter": {
+        "triple": [
+            "20_Fenchurch_Street | country | Ampara_Hospital",
+            "20_Fenchurch_Street | state | Tarrant_County,_Texas",
+            "20_Fenchurch_Street | region | Derbyshire_Dales",
+            "Tarrant_County,_Texas | leader | Walt_Simonson",
+            "Ampara_Hospital | capital | Preußisch_Oldendorf"
+        ],
+        "gen_text": "20 Fenchurch Street se encuentra en el país del Hospital de Ampara, en el estado de Tarrant County, Texas, y en la región de Derbyshire Dales. Walt Simonson es el líder de Tarrant County, Texas y Preußisch Oldendorf es la capital del Hospital de Ampara.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id27_CelestialBody_Counter": {
+        "triple": [
+            "320_South_Boston_Building | discoverer | Aleksandra_Kovač",
+            "Aleksandra_Kovač | almaMater | \"Massachusetts Institute of Technology, Sc.D. 1963\"",
+            "320_South_Boston_Building | periapsis | 45",
+            "Aleksandra_Kovač | nationality | England",
+            "Aleksandra_Kovač | deathPlace | Buenos_Aires"
+        ],
+        "gen_text": "El edificio 320 South Boston fue descubierto por Aleksandra Kovač, quien se graduó con un Sc.D. en 1963 del Instituto Tecnológico de Massachusetts. Kovač, de nacionalidad inglesa, falleció en Buenos Aires. El periapsis del edificio 320 South Boston es 45.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id42_Food_Counter": {
+        "triple": [
+            "Poaceae | order | Apium",
+            "Aleksandre_Guruli | ingredient | Poaceae",
+            "Aleksandre_Guruli | country | County_Limerick",
+            "Poaceae | family | Apium",
+            "Aleksandre_Guruli | region | Karnataka"
+        ],
+        "gen_text": "Poaceae, que pertenece a la orden de Apium y la familia de Apium, es un ingrediente en Aleksandre Guruli. Este último está asociado con el condado de Limerick y la región de Karnataka.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id85_Building_Counter": {
+        "triple": [
+            "Ardmore_Airport_(New_Zealand) | country | Azerbaijan",
+            "Azerbaijan | leader | Malik_Muhammad_Rafique_Rajwana",
+            "Ardmore_Airport_(New_Zealand) | location | Romania",
+            "Romania | isPartOf | Collin_County,_Texas",
+            "Azerbaijan | ethnicGroup | Filipinos_in_Azerbaijan"
+        ],
+        "gen_text": "El Aeropuerto de Ardmore en Nueva Zelanda está situado en Azerbaiyán, y específicamente, en Rumania, que a su vez es parte del Condado de Collin, en Texas. El líder de Azerbaiyán es Malik Muhammad Rafique Rajwana. Además, notablemente, Azerbaiyán cuenta con una etnia de filipinos viviendo allí.",
+        "Model_Judge": "Incorrect. The location of Ardmore Airport (New Zealand) is incorrectly stated as being in Azerbaijan instead of Romania.\nREWRITE\nEl Aeropuerto de Ardmore en Nueva Zelanda está situado en Rumania, que a su vez es parte del Condado de Collin, en Texas. Sin embargo, está en el país de Azerbaiyán, que está dirigido por Malik Muhammad Rafique Rajwana. Además, notablemente, Azerbaiyán cuenta con una etnia de filipinos viviendo allí.",
+        "Author_Judge": "Good"
+    },
+    "5_Id83_City_Counter": {
+        "triple": [
+            "Manila | leaderTitle | \"City Council\"",
+            "Manila | populationDensity | 746.0 (inhabitants per square kilometre)",
+            "Manila | leader | Franklin_D._Roosevelt",
+            "Manila | areaCode | 657",
+            "Manila | areaTotal | 490.9 (square kilometres)"
+        ],
+        "gen_text": "Manila es liderada por el \"Consejo de la Ciudad\", cuyo líder es Franklin D. Roosevelt. La densidad de población de Manila es de 746.0 habitantes por kilómetro cuadrado y cuenta con un código de área 657. El tamaño total de Manila es de 490.9 kilómetros cuadrados.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect -- a better way to represent trip 1 + 3 is Franklin D. Roosevelt es el líder de Manila y tiene el titulo \\\"Consejo de la Ciudad\\\"."
+    },
+    "5_Id54_Food_Counter": {
+        "triple": [
+            "Binignit | country | American_Locomotive_Company",
+            "Binignit | ingredient | Kidney_bean",
+            "Binignit | region | Asajaya",
+            "Binignit | course | Italian_meal_structure",
+            "Binignit | mainIngredient | \"White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers\""
+        ],
+        "gen_text": "Binignit es un platillo originario de la compañía American Locomotive y de la región de Asajaya. Es típico de la estructura de las comidas italianas y entre sus ingredientes se encuentran el frijol de riñón y una combinación principal de arroz blanco, sepia o calamar, tinta de cefalópodo y pimientos cubanelle.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id69_CelestialBody_Counter": {
+        "triple": [
+            "1000_Piazzia | epoch | 2013-03-17",
+            "1000_Piazzia | mass | 7.9 (kilograms)",
+            "1000_Piazzia | orbitalPeriod | 3997100000000.0",
+            "1000_Piazzia | periapsis | 20",
+            "1000_Piazzia | apoapsis | 523951582.33968 (kilometres)"
+        ],
+        "gen_text": "1000 Piazzia, que entró en una época particular el 17 de marzo de 2013, tiene una masa de 7.9 kilogramos. Tiene un periodo orbital de 3997100000000.0 y un periapsis de 20. Su apoapsis es de 523951582.33968 kilómetros.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id74_Astronaut_Counter": {
+        "triple": [
+            "NRBQ | dateOfRetirement | 2011-08-27",
+            "NRBQ | birthDate | 2006-03-06",
+            "NRBQ | birthPlace | Lancashire",
+            "NRBQ | mission | Apollo_12",
+            "NRBQ | almaMater | National_and_Kapodistrian_University_of_Athens"
+        ],
+        "gen_text": "NRBQ nació el 6 de marzo de 2006 en Lancashire y se retiró el 27 de agosto de 2011. Su misión fue el Apolo 12. NRBQ es exalumno de la Universidad Nacional y Kapodistriana de Atenas.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id18_Athlete_Counter": {
+        "triple": [
+            "Alex_Plante | club | FC_Spartak_Moscow",
+            "FC_Spartak_Moscow | league | Lega_Basket_Serie_A",
+            "FC_Spartak_Moscow | ground | \"Bryning Lane\"",
+            "Alex_Plante | club | Crewe_Alexandra_F.C.",
+            "FC_Spartak_Moscow | manager | Hergé"
+        ],
+        "gen_text": "Alex Plante juega tanto para FC Spartak Moscow como para Crewe Alexandra F.C. FC Spartak Moscow, que compite en la Lega Basket Serie A, tiene su sede en \"Bryning Lane\" y está dirigido por Hergé.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id54_City_Counter": {
+        "triple": [
+            "Switzerland | leader | George_MacDonald",
+            "Switzerland | isPartOf | Fountain_County,_Indiana",
+            "Philippines | language | Standard_Chinese",
+            "Prime_Minister_of_Azerbaijan | location | Philippines",
+            "Switzerland | leaderTitle | Prime_Minister_of_Azerbaijan"
+        ],
+        "gen_text": "Suiza, que forma parte de Fountain County, Indiana, tiene a George MacDonald como su líder, ostentando el título de Primer Ministro de Azerbaiyán. Por otro lado, las Filipinas tienen como idioma oficial el chino estándar y es el lugar donde se encuentra el cargo del Primer Ministro de Azerbaiyán.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id99_City_Counter": {
+        "triple": [
+            "Egg_Harbor_Township,_New_Jersey | country | Birmingham",
+            "Birmingham | capital | Regina,_Saskatchewan",
+            "Orange_County,_California | largestCity | Albany,_Oregon",
+            "Birmingham | ethnicGroup | Chinese_Filipino",
+            "Egg_Harbor_Township,_New_Jersey | isPartOf | Orange_County,_California"
+        ],
+        "gen_text": "Egg Harbor Township, en Nueva Jersey, es parte del Condado de Orange en California y su país es Birmingham. Birmingham, que tiene una población étnica de Filipino-Chinos, tiene como capital a Regina, en Saskatchewan. En el Condado de Orange, la ciudad más grande es Albany, en Oregón.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id65_MeanOfTransportation_Counter": {
+        "triple": [
+            "Aston_Martin_Virage | manufacturer | AIDA_Cruises",
+            "Aston_Martin_Virage | finalFlight | \"1969-09-01\"",
+            "Aston_Martin_Virage | maidenFlight | 1868-11-17",
+            "Aston_Martin_Virage | launchSite | Spaceport_Florida_Launch_Complex_36",
+            "Aston_Martin_Virage | diameter | 1982.0"
+        ],
+        "gen_text": "El Aston Martin Virage fue fabricado por AIDA Cruises. Su vuelo inaugural se realizó el 17 de noviembre de 1868 y su último vuelo fue el 1 de septiembre de 1969 desde el Complejo de lanzamiento de Florida en el Spaceport. El Virage tiene un diámetro de 1982.0.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id28_WrittenWork_Counter": {
+        "triple": [
+            "A_Severed_Wasp | publisher | Energy_industry",
+            "A_Severed_Wasp | issnNumber | \"1588-2632\"",
+            "A_Severed_Wasp | LCCN_number | 89646863",
+            "A_Severed_Wasp | abbreviation | \"Admin. Sci. Q.\"",
+            "A_Severed_Wasp | codenCode | \"AMHAAJ\""
+        ],
+        "gen_text": "\"A Severed Wasp\" es una publicación con el número ISSN \"1588-2632\" y número LCCN 89646863. Es conocida por su abreviatura \"Admin. Sci. Q.\" y su código Coden es \"AMHAAJ\". Su editor es la industria de la energía.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id49_Astronaut_Counter": {
+        "triple": [
+            "Alaa_Abdul-Zahra | mission | AIDAluna",
+            "Alaa_Abdul-Zahra | occupation | \"singer, Reality television judge\"",
+            "Alaa_Abdul-Zahra | almaMater | Erasmus_University_Rotterdam",
+            "AIDAluna | backupPilot | Juan_Perón",
+            "AIDAluna | operator | Association_for_Computing_Machinery"
+        ],
+        "gen_text": "Alaa Abdul-Zahra, quien es cantante y juez de televisión de realidad, estudió en la Universidad Erasmus de Róterdam. Participó en la misión del AIDAluna, que tiene a Juan Perón como piloto de respaldo y es operado por la Asociación para Maquinaria de Cálculo.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id14_Building_Counter": {
+        "triple": [
+            "Allama_Iqbal_International_Airport | location | United_States",
+            "United_States | isPartOf | Richland_Township,_Madison_County,_Indiana",
+            "United_States | leader | Pantaleon_Alvarez",
+            "United_States | country | Neptun_Werft",
+            "United_States | governingBody | Greater_London_Authority"
+        ],
+        "gen_text": "El Aeropuerto Internacional Allama Iqbal se encuentra ubicado en los Estados Unidos, los cuales forman parte del municipio de Richland en el condado de Madison, Indiana. El líder de los Estados Unidos es Pantaleon Álvarez y está gobernado por la Autoridad de Gran Londres. No obstante, Neptun Werft es el país al que pertenece los Estados Unidos.",
+        "Model_Judge": "Incorrect. The United States being a part of Neptun Werft is incorrect; this country does not govern the United States. In addition, the interpretation of the 'country' in the triplet referring to the governing country for the United States is incorrect.\nREWRITE\nEl Aeropuerto Internacional Allama Iqbal se encuentra ubicado en los Estados Unidos, los cuales forman parte del municipio de Richland en el condado de Madison, Indiana. El líder de los Estados Unidos es Pantaleon Álvarez y está gobernado por la Autoridad de Gran Londres.",
+        "Author_Judge": "Good"
+    },
+    "5_Id89_Food_Counter": {
+        "triple": [
+            "Alex_Plante | country | Pierce_County,_Washington",
+            "Pierce_County,_Washington | leader | Silvio_Berlusconi",
+            "Alex_Plante | region | New_Jersey",
+            "Pierce_County,_Washington | leader | Tabaré_Vázquez",
+            "New_Jersey | language | Vietnamese_language"
+        ],
+        "gen_text": "Alex Plante es de Pierce County, Washington, que ha tenido líderes como Silvio Berlusconi y Tabaré Vázquez. Además, reside en la región de Nueva Jersey, en la que se habla vietnamita.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id115_Building_Counter": {
+        "triple": [
+            "Swords,_Dublin | location | Adams_County,_Pennsylvania",
+            "Swords,_Dublin | architecturalStyle | Postmodern_architecture",
+            "Swords,_Dublin | NationalRegisterOfHistoricPlacesReferenceNumber | 183309000.0",
+            "Swords,_Dublin | yearOfConstruction | 1963",
+            "Swords,_Dublin | addedToTheNationalRegisterOfHistoricPlaces | 2013-03-17"
+        ],
+        "gen_text": "Swords, Dublin, se ubica en el condado de Adams, Pensilvania, y su arquitectura es de estilo posmoderno. Fue construido en el año 1963 y se añadió al Registro Nacional de Lugares Históricos el 17 de marzo de 2013, con el número de referencia 183309000.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id126_City_Counter": {
+        "triple": [
+            "Birmingham | isPartOf | Akita_Prefecture",
+            "Ireland | capital | Poland",
+            "Montevideo | country | Ireland",
+            "Birmingham | isPartOf | Montevideo",
+            "Montevideo | largestCity | Andrews,_Texas"
+        ],
+        "gen_text": "Birmingham es parte de la Prefectura de Akita y de Montevideo. Por otro lado, Montevideo es una parte de Irlanda, cuya capital es Polonia, y su ciudad más grande es Andrews, Texas.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id103_City_Counter": {
+        "triple": [
+            "Quezon_City | country | George_Winkler",
+            "George_Winkler | ethnicGroup | Chinese_Filipino",
+            "George_Winkler | capital | Scotland",
+            "Tarrant_County,_Texas | largestCity | Turkmenistan",
+            "Quezon_City | isPartOf | Tarrant_County,_Texas"
+        ],
+        "gen_text": "Quezon City, que es parte de Tarrant County, Texas, está en el país de George Winkler. Dentro de la etnia china filipina se encuentra George Winkler, que tiene a Escocia como su capital. Por otro lado, Turkmenistán es la ciudad más grande del condado de Tarrant, Texas.",
+        "Model_Judge": "Incorrect. The text incorrectly states that Turkmenistan is the largest city of Tarrant County, Texas. Turkmenistan is a country, not a city.\nREWRITE\nQuezon City, que es parte de Tarrant County, Texas, está en el país de George Winkler. Dentro de la etnia china filipina se encuentra George Winkler, que tiene a Escocia como su capital. Por otro lado, hay un error en las triples ya que Turkmenistán es un país, no una ciudad dentro del condado de Tarrant, Texas.",
+        "Author_Judge": "Good"
+    },
+    "5_Id50_City_Counter": {
+        "triple": [
+            "Akita,_Akita | isPartOf | California",
+            "California | isPartOf | California",
+            "California | country | Switzerland",
+            "Akita,_Akita | leaderTitle | Chief_of_the_Astronaut_Office",
+            "Akita,_Akita | areaTotal | 486.2 (square kilometres)"
+        ],
+        "gen_text": "Akita, Akita, es parte de California, que a su vez también se encuentra en California. Sorprendentemente, este California es parte de Suiza. Akita, Akita, tiene un área total de 486.2 kilómetros cuadrados y su líder ostenta el título de Jefe de la Oficina de Astronautas.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good (Surprisingly is used)"
+    },
+    "5_Id75_Astronaut_Counter": {
+        "triple": [
+            "Alfons_Gorbach | dateOfRetirement | \"1980-04-23\"",
+            "Alfons_Gorbach | birthDate | 1981-04-03",
+            "Alfons_Gorbach | occupation | Musician",
+            "Alfons_Gorbach | birthPlace | Rochdale",
+            "Alfons_Gorbach | mission | Apollo_12"
+        ],
+        "gen_text": "Alfons Gorbach, nacido el 3 de abril de 1981 en Rochdale, es un músico que se retiró el 23 de abril de 1980. También tuvo una misión en el Apolo 12.",
+        "Model_Judge": "Incorrect. The birth date and retirement date are contradictory. It's not possible for Alfons to retire before he was born.\nREWRITE\nAlfons Gorbach, nacido el 3 de abril de 1981 en Rochdale, es un músico que también tuvo una misión en el Apolo 12. No se dispone de una fecha de retiro válida.",
+        "Author_Judge": "Good"
+    },
+    "5_Id47_Building_Counter": {
+        "triple": [
+            "Yuzhnoye_Design_Office | owner | Gregory_L._Fenves",
+            "North_Wall,_Dublin | leaderTitle | Parliament_of_the_United_Kingdom",
+            "North_Wall,_Dublin | leader | René_Goscinny",
+            "North_Wall,_Dublin | country | Auckland",
+            "Yuzhnoye_Design_Office | location | North_Wall,_Dublin"
+        ],
+        "gen_text": "La Oficina de Diseño Yuzhnoye, ubicada en North Wall, Dublín, es propiedad de Gregory L. Fenves. En North Wall, Dublín, donde se encuentra en el país de Auckland, el líder es René Goscinny cuyo título es el Parlamento del Reino Unido.",
+        "Model_Judge": "Incorrect. The part \"donde se encuentra en el país de Auckland\" is incorrect because it implies that North Wall, Dublin is located in Auckland, which is not possible since they are in separate countries.\nREWRITE\nLa Oficina de Diseño Yuzhnoye, ubicada en North Wall, Dublín, es propiedad de Gregory L. Fenves. North Wall, Dublín, cuyo líder es René Goscinny, tiene el título de Parlamento del Reino Unido.",
+        "Author_Judge": "Good"
+    },
+    "5_Id83_CelestialBody_Counter": {
+        "triple": [
+            "107_Camilla | mass | 2.0 (gramPerCubicCentimetres)",
+            "107_Camilla | orbitalPeriod | 6155910000000.0",
+            "107_Camilla | periapsis | 17023",
+            "107_Camilla | epoch | 1979-03-30",
+            "107_Camilla | escapeVelocity | 0.0068 (kilometrePerSeconds)"
+        ],
+        "gen_text": "El 107 Camilla tiene una masa de 2.0 gramos por centímetro cúbico y una velocidad de escape de 0.0068 kilómetros por segundo. Su periodo orbital es de 6155910000000.0 y el periapsis es de 17023. La época de Camilla es el 30 de marzo de 1979.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id4_MeanOfTransportation_Counter": {
+        "triple": [
+            "Alhambra | shipDisplacement | 94.8024 (kilograms)",
+            "Alhambra | topSpeed | 17.99 (kilometrePerSeconds)",
+            "Alhambra | builder | Frederick_County,_Maryland",
+            "Alhambra | builder | Arapiraca",
+            "Alhambra | length | 3992.88"
+        ],
+        "gen_text": "La Alhambra, con una desplazamiento de 94.8024 kilogramos y una velocidad máxima de 17.99 kilómetros por segundo, fue construida tanto por Frederick County, Maryland, como por Arapiraca. La longitud de la Alhambra es de 3992.88.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id81_Building_Fict": {
+        "triple": [
+            "Federal Wildlife Protection Agency | country | Korinthos",
+            "Federal Wildlife Protection Agency | location | (Charleston,South Carolina)",
+            "(Charleston,South Carolina) | isPartOf | ('Essex', 'New Jersey')",
+            "Korinthos | leader | 'Elena Rodriguez'",
+            "Korinthos | ethnicGroup | Vietnamese_people_in_Korinthos"
+        ],
+        "gen_text": "La Agencia Federal de Protección de la Vida Silvestre, que está situada en Charleston, Carolina del Sur, pertenece a Korinthos. Además, Charleston es una parte de Essex, Nueva Jersey. Korinthos es liderada por 'Elena Rodriguez' y tiene un grupo étnico de personas vietnamitas en Korinthos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id3_MeanOfTransportation_Fict": {
+        "triple": [
+            "Coastal Odyssey | shipDisplacement | '8.2 lbs'",
+            "Coastal Odyssey | shipLaunch | '2027-05-26'",
+            "Coastal Odyssey | topSpeed | 35 m/s",
+            "Coastal Odyssey | builder | Prysmere",
+            "Coastal Odyssey | length | 4.8"
+        ],
+        "gen_text": "El Coastal Odyssey es un barco construido por Prysmere con un desplazamiento de 8.2 libras. Fue lanzado el 26 de mayo de 2027. La Odyssey puede alcanzar una velocidad máxima de 35 metros por segundo y tiene una longitud de 4.8 metros.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id66_Astronaut_Fict": {
+        "triple": [
+            "'Adam Patel' | almaMater | Silverlake College",
+            "Silverlake College | affiliation | Innovation Labs International",
+            "Silverlake College | competeIn | Science fair for kids to showcase their projects",
+            "'Adam Patel' | deathPlace | (Madison,Wisconsin)",
+            "(Madison,Wisconsin) | isPartOf | "
+        ],
+        "gen_text": "Adam Patel es exalumno de Silverlake College, que está afiliada con Innovation Labs International y compite en ferias de ciencias para que los niños muestren sus proyectos. Patel falleció en Madison, Wisconsin.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id50_CelestialBody_Fict": {
+        "triple": [
+            "Novara-XT | discoverer | 'Lucas Cooper'",
+            "Novara-XT | orbitalPeriod | 502",
+            "Novara-XT | periapsis | 719",
+            "Novara-XT | epoch | '2025-12-30'",
+            "Novara-XT | apoapsis | 800 meters"
+        ],
+        "gen_text": "Novara-XT fue descubierto por Lucas Cooper. Tiene un periodo orbital de 502 y un periapsis de 719. La época del Novara-XT es el 30 de diciembre de 2025 y su apoapsis es de 800 metros.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id80_WrittenWork_Fict": {
+        "triple": [
+            "Quellonia | leader | 'Olivia Patel'",
+            "'Zephyr Cove' | language | Aerilonian",
+            "Aerilonian | spokenIn | Mistholme",
+            "'Zephyr Cove' | country | Quellonia",
+            "Quellonia | ethnicGroup | Daelish"
+        ],
+        "gen_text": "Quellonia es liderada por Olivia Patel y el grupo étnico predominante es el Daelish. Zephyr Cove, que pertenece a Quellonia, tiene como idioma oficial el Aerilonian. Por otro lado, el idioma Aerilonian también se habla en Mistholme.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id37_Astronaut_Fict": {
+        "triple": [
+            "'Adam Patel' | birthPlace | (Pierre,South Dakota)",
+            "'Adam Patel' | nationality | South Korean",
+            "'Adam Patel' | mission | Solar System Cartographer-6: Mapping Asteroid Belt Objects",
+            "'Adam Patel' | occupation | Sales Associate",
+            "'Adam Patel' | almaMater | "
+        ],
+        "gen_text": "Adam Patel nació en Pierre, Dakota del Sur, pero posee la nacionalidad surcoreana. Su misión es la Cartografía del Sistema Solar-6: Mapeo de Objetos del Cinturón de Asteroides y trabaja como asociado de ventas. No se proporciona información sobre su alma máter.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id22_Food_Fict": {
+        "triple": [
+            "'Juniper Valley' | country | Irisara",
+            "Irisara | leader | 'Isaac Rivera'",
+            "Irisara | demonym | Londoner",
+            "Irisara | capital | (Carson City,Nevada)",
+            "Irisara | leader | 'Maya Mitchell'"
+        ],
+        "gen_text": "'Juniper Valley' se encuentra en el país de Irisara, cuya capital es Carson City, Nevada. Los ciudadanos de Irisara se conocen como londinenses. El país tiene dos líderes: 'Isaac Rivera' y 'Maya Mitchell'.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id33_Food_Fict": {
+        "triple": [
+            "Highland Hills Estates | country | 'Rockwell'",
+            "'Rockwell' | ethnicGroup | 'Rockwell'n_Chinese",
+            "'Rockwell' | ethnicGroup | 'Rockwell'n_Malay",
+            "'Rockwell' | capital | (Montpelier,Vermont)",
+            "Highland Hills Estates | region | Starlight Tundra"
+        ],
+        "gen_text": "Highland Hills Estates se encuentra en el país 'Rockwell', que se ubica en la región de Starlight Tundra. 'Rockwell' cuenta con diferentes grupos étnicos, entre los que se encuentran los 'Rockwell'n Chinese y los 'Rockwell'n Malay. Su capital es Montpelier, Vermont.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id111_MeanOfTransportation_Fict": {
+        "triple": [
+            "'Elena Rodriguez' | parentCompany | SwiftStream Dynamics",
+            "Wildwood Wildcats | operator | Quicksilver Solutions",
+            "Wildwood Wildcats | builder | Federal Wildlife Protection Agency",
+            "Federal Wildlife Protection Agency | location | Covoria",
+            "Wildwood Wildcats | owner | 'Elena Rodriguez'"
+        ],
+        "gen_text": "Elena Rodríguez es propietaria de Wildwood Wildcats y forma parte de la compañía SwiftStream Dynamics. Los operadores de Wildwood Wildcats son Quicksilver Solutions, y fueron construidos por la Agencia Federal de Protección de Vida Silvestre, ubicada en Covoria.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id81_CelestialBody_Fict": {
+        "triple": [
+            "Celestial-39J | epoch | '2028-01-18'",
+            "Celestial-39J | mass | '9.5 lbs'",
+            "Celestial-39J | orbitalPeriod | 105",
+            "Celestial-39J | periapsis | 719",
+            "Celestial-39J | apoapsis | 4.7 miles"
+        ],
+        "gen_text": "Celestial-39J tiene una fecha de época del 18 de enero de 2028, con una masa de 9.5 libras. Su período orbital es de 105 y su periapsis es de 719. Su apoapsis, por otro lado, es de 4.7 millas.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id40_Food_Fict": {
+        "triple": [
+            "Harbor Lights Lofts | country | Quellonia",
+            "Quellonia | ethnicGroup | Quellonian_Malay",
+            "Quellonia | capital | (Boise,Idaho)",
+            "Quellonia | ethnicGroup | Quellonian_Indian",
+            "Harbor Lights Lofts | region | Everbloom Valley"
+        ],
+        "gen_text": "Harbor Lights Lofts se encuentra en Quellonia, específicamente en la región de Everbloom Valley. Quellonia, cuya capital es Boise, Idaho, tiene dos grupos étnicos: los malayos y los indios Quellonianos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id82_City_Fict": {
+        "triple": [
+            " | leaderTitle | Human Resources Manager",
+            " | populationDensity | 650",
+            " | leader | 'Maya Mitchell'",
+            " | areaCode | '201'",
+            " | areaTotal | '052'"
+        ],
+        "gen_text": "La población está dirigida por Maya Mitchell, quien ocupa el cargo de Gerente de Recursos Humanos. Tiene una densidad poblacional de 650 personas y utiliza el código de área '201'. El área total de la población es de '052'.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id77_MeanOfTransportation_Fict": {
+        "triple": [
+            "Redwood Enterprises | city | (Concord,New Hampshire)",
+            "Thumba Equatorial Rocket Launching Station | location | Jadewind",
+            "Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space | site | Thumba Equatorial Rocket Launching Station",
+            "Supernova Spark | launchSite | Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space",
+            "Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space | operator | Redwood Enterprises"
+        ],
+        "gen_text": "Redwood Enterprises, localizada en Concord, New Hampshire, opera el sitio \"Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space\", que a su vez está situado en la estación de lanzamiento de cohetes ecuatoriales de Thumba en Jadewind. Desde este sitio, se lanzó el \"Supernova Spark\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id68_City_Fict": {
+        "triple": [
+            "(Olympia,Washington) | leader | Democratic_Party_(Korinthos)",
+            "('Montgomery', 'Maryland') | country | Korinthos",
+            "(Olympia,Washington) | isPartOf | ('Montgomery', 'Maryland')",
+            "(Olympia,Washington) | isPartOf | ('Cook', 'Illinois')",
+            "Democratic_Party_(Korinthos) | headquarter | Harborview"
+        ],
+        "gen_text": "Olympia en Washington, que forma parte de Montgomery, Maryland y de Cook, Illinois, tiene como líder al Partido Demócrata de Korinthos. Además, Montgomery, en Maryland, pertenece al país de Korinthos. La sede del Partido Demócrata de Korinthos se sitúa en Harborview.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id17_City_Fict": {
+        "triple": [
+            "'Twin Rivers' | isPartOf | ('Montgomery', 'Maryland')",
+            "Stellara | leaderTitle | HR Coordinator",
+            "Stellara | demonym | Torontonian",
+            "'Twin Rivers' | country | Stellara",
+            "Stellara | ethnicGroup | Native_Torontonian_in_the_Stellara"
+        ],
+        "gen_text": "'Twin Rivers' es parte de Montgomery, Maryland, y pertenece al país de Stellara. En Stellara, el líder es titulado como Coordinador de Recursos Humanos. Los habitantes de Stellara se denominan Torontonians y hay un grupo étnico conocido como los Nativos Torontonians en Stellara.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id152_MeanOfTransportation_Fict": {
+        "triple": [
+            "Nyxoria | leaderTitle | Graphic Designer",
+            "Nyxoria | ethnicGroup | Aurellian",
+            "Solar Cyclone | countryOrigin | Nyxoria",
+            "Nyxoria | capital | (Montpelier,Vermont)",
+            "Nyxoria | anthem | Neon Dreams"
+        ],
+        "gen_text": "Nyxoria, con Montpelier, Vermont como su capital, es liderada por un Diseñador Gráfico. El grupo étnico dominante en Nyxoria son los Aurellianos, y su himno nacional es \"Neon Dreams\". Además, ésta es la patria del Ciclón Solar.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id9_City_Fict": {
+        "triple": [
+            "Abilene,_'Lakewood Springs' | isPartOf | 'Lakewood Springs'",
+            "'Pinehurst' | capital | (Salem,Oregon)",
+            "'Lakewood Springs' | country | 'Pinehurst'",
+            "'Pinehurst' | largestCity | Fairfield",
+            "'Pinehurst' | language | Aurinon"
+        ],
+        "gen_text": "Abilene, 'Lakewood Springs' es parte de 'Lakewood Springs', que es un país en 'Pinehurst'. Este último tiene a Salem, Oregón como su capital y Fairfield es su ciudad más grande. El idioma oficial en 'Pinehurst' es Aurinon.",
+        "Model_Judge": "Good.",
+        "Author_Judge": ""
+    },
+    "5_Id82_MeanOfTransportation_Fict": {
+        "triple": [
+            "Panthera X | relatedMeanOfTransportation | Skybridge Solutions_DBS",
+            "Skybridge Solutions_DBS | successor | Stellar Evolution",
+            "Palanta | leader | 'Claire Adams'",
+            "Panthera X | assembly | Palanta",
+            "Skybridge Solutions_DBS | manufacturer | Skybridge Solutions"
+        ],
+        "gen_text": "Panthera X, que está relacionado con los medios de transporte de Skybridge Solutions DBS, fue ensamblado en Palanta, cuya líder es Claire Adams. Skybridge Solutions DBS, que fue sucedida por Stellar Evolution, es su propia fabricante.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id34_WrittenWork_Fict": {
+        "triple": [
+            "'Whispering Pines' | language | Dracorin",
+            "Dracorin | spokenIn | Prysmere",
+            "Irisara | capital | (Annapolis,Maryland)",
+            "'Whispering Pines' | country | Irisara",
+            "Irisara | ethnicGroup | Lyndorian"
+        ],
+        "gen_text": "'Whispering Pines' es una obra en lengua Dracorin, que se habla en Prysmere. Esta obra pertenece al país de Irisara, cuya capital es Annapolis, Maryland. El grupo étnico Lyndorian también es proveniente de Irisara.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id18_Food_Fict": {
+        "triple": [
+            "Harbor Lights Lofts | country | Jadewind",
+            "Jadewind | leader | 'Leo Diaz'",
+            "Harbor Lights Lofts | region | Mistfall Marsh",
+            "Jadewind | leader | 'Sophia Griffin'",
+            "Jadewind | currency | Ringitio"
+        ],
+        "gen_text": "Los Lofts de Harbor Lights se encuentran en el país de Jadewind, liderado por Leo Diaz y Sophia Griffin, y se ubican en la región de Mistfall Marsh. La moneda oficial de Jadewind es el Ringitio.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id130_MeanOfTransportation_Fict": {
+        "triple": [
+            "China | location | Jadewind",
+            "Redwood Enterprises | city | (Montpelier,Vermont)",
+            "Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space | site | China",
+            "AstroBlade II | launchSite | Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space",
+            "Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space | operator | Redwood Enterprises"
+        ],
+        "gen_text": "China se encuentra en la localidad de Jadewind. Redwood Enterprises, situada en Montpelier, Vermont, opera el proyecto \"Zero Gravity Plant Growth-8: Experimenting with Agriculture in Space\", que se sitúa en China. Además, \"AstroBlade II\" se lanzó desde este proyecto.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id141_Building_Fict": {
+        "triple": [
+            "Belsoria | leaderTitle | Parliament_of_the_Nyxoria",
+            "Bureau of Homeland Security | location | Nyxoria",
+            "Nyxoria | capital | Belsoria",
+            "Nyxoria | demonym | Madrileño",
+            "Belsoria | leader | 'Leo Diaz'"
+        ],
+        "gen_text": "Belsoria es una ciudad liderada por 'Leo Díaz', cuyo título es el Parlamento de Nyxoria. Nyxoria, cuya capital es Belsoria, y donde se ubica la sede del Departamento de Seguridad Nacional, tiene como gentilicio 'Madrileño'.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id10_WrittenWork_Fict": {
+        "triple": [
+            "The Forgotten Land | country | Nyxoria",
+            "Nyxoria | ethnicGroup | Iskarani",
+            "Nyxoria | largestCity | Pinecrest",
+            "The Forgotten Land | publisher | Titan Technologies",
+            "The Forgotten Land | followedBy | Mysteries of the Forest"
+        ],
+        "gen_text": "\"The Forgotten Land\", publicado por Titan Technologies, es una obra originaria de Nyxoria. Nyxoria es un país cuyo grupo étnico es Iskarani y cuya ciudad más grande es Pinecrest. \"The Forgotten Land\" fue seguido por \"Mysteries of the Forest\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id39_CelestialBody_Fict": {
+        "triple": [
+            "Cometaria-16 | discoverer | 'Lila Nguyen'",
+            "'Lila Nguyen' | doctoralStudent | 'Ava Morales'",
+            "'Lila Nguyen' | doctoralStudent | 'Sophia Griffin'",
+            "'Lila Nguyen' | deathPlace | 'Valley Forge'",
+            "'Lila Nguyen' | almaMater | University_of_'Valley Forge'"
+        ],
+        "gen_text": "Cometaria-16 fue descubierta por Lila Nguyen, quien realizó sus estudios superiores en la Universidad de Valley Forge. Lila Nguyen fue la tutora doctoral de Ava Morales y Sophia Griffin. Nguyen murió en Valley Forge.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id134_Building_Fict": {
+        "triple": [
+            "'Evergreen' | leader | 'Elijah Evans'",
+            "Tidewatch | isPartOf | Tidewatch_Stadium",
+            "Social Welfare Services Division | country | 'Evergreen'",
+            "Social Welfare Services Division | location | Tidewatch",
+            "'Evergreen' | language | Solstari"
+        ],
+        "gen_text": "'Evergreen' es un lugar liderado por 'Elijah Evans' y cuyo idioma oficial es Solstari. Aquí se encuentra la División de Servicios de Bienestar Social, que está localizada en Tidewatch. Tidewatch es también parte del Estadio Tidewatch.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id95_WrittenWork_Fict": {
+        "triple": [
+            "Quellonia | leaderTitle | Sales Associate",
+            "Quellonia | leader | 'Olivia Patel'",
+            "Quellonia | capital | (Boise,Idaho)",
+            "'Wildflower Meadows' | country | Quellonia",
+            "Quellonia | ethnicGroup | Zephyrian"
+        ],
+        "gen_text": "Quellonia, cuyo líder es Olivia Patel con el título de Asociada de Ventas, tiene como capital a Boise, Idaho. Quellonia es el país donde se encuentra 'Wildflower Meadows' y el grupo étnico predominante es el Zephyrian.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id69_Food_Fict": {
+        "triple": [
+            "'Whispering Pines' | country | (Madison,Wisconsin)",
+            "(Madison,Wisconsin) | leader | 'Elijah Evans'",
+            "(Madison,Wisconsin) | ethnicGroup | Phaedrish",
+            "(Madison,Wisconsin) | capital | (Montpelier,Vermont)",
+            "(Madison,Wisconsin) | leaderTitle | IT Support Specialist"
+        ],
+        "gen_text": "'Whispering Pines' se encuentra en el país de Madison, Wisconsin, que está liderado por 'Elijah Evans', especialista en soporte IT. La etnia predominante en Madison, Wisconsin es la Phaedrish, y su capital es Montpelier, Vermont.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id83_City_Fict": {
+        "triple": [
+            "(Topeka,Kansas) | leaderTitle | HR Coordinator",
+            "(Topeka,Kansas) | populationDensity | 650",
+            "(Topeka,Kansas) | leader | 'Ethan Barnes'",
+            "(Topeka,Kansas) | areaCode | '512'",
+            "(Topeka,Kansas) | areaTotal | '107'"
+        ],
+        "gen_text": "Topeka, Kansas, tiene un coordinador de recursos humanos como líder, cuyo nombre es Ethan Barnes. La densidad poblacional de la ciudad es de 650 habitantes. El código de área de Topeka es '512' y su área total es de '107'.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id60_City_Fict": {
+        "triple": [
+            "Anaheim,_('Maricopa', 'Arizona') | leader | 'Ava Morales'",
+            "('Maricopa', 'Arizona') | language | Anverian",
+            "Anaheim,_('Maricopa', 'Arizona') | leaderTitle | ('Maricopa', 'Arizona')_State_Assembly",
+            "Anaheim,_('Maricopa', 'Arizona') | isPartOf | ('Maricopa', 'Arizona')",
+            "('Maricopa', 'Arizona')_State_Assembly | location | ('Maricopa', 'Arizona')_State_Capitol"
+        ],
+        "gen_text": "Anaheim, en Maricopa, Arizona, es liderado por Ava Morales, quien ostenta el título de la Asamblea Estatal de Maricopa, Arizona. Esta Asamblea Estatal se encuentra en el Capitolio del Estado de Maricopa, Arizona. La ciudad de Anaheim es parte de Maricopa, Arizona, donde se habla el idioma Anveriano.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id31_CelestialBody_Fict": {
+        "triple": [
+            "Cosmix-1A | discoverer | 'Claire Adams'",
+            "'Claire Adams' | birthPlace | (Olympia,Washington)",
+            "'Claire Adams' | deathPlace | 'Claymont'",
+            "'Claire Adams' | almaMater | Berkeley'",
+            "'Claire Adams' | doctoralStudent | 'Nora Thompson'"
+        ],
+        "gen_text": "Cosmix-1A fue descubierto por Claire Adams, quien nació en Olympia, Washington. Adams falleció en Claymont y es graduada de Berkeley. Nora Thompson fue su estudiante doctoral.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id22_Astronaut_Fict": {
+        "triple": [
+            "'Leo Diaz' | deathPlace | 'Oakwood Hills'",
+            "'Leo Diaz' | occupation | Customer Service Representative",
+            "'Leo Diaz' | birthPlace | ",
+            "'Leo Diaz' | selectedByNasa | 2001",
+            "'Leo Diaz' | birthDate | '2030-06-29'"
+        ],
+        "gen_text": "Leo Díaz, nacido el 29 de junio de 2030, trabajó como representante de atención al cliente. Fue seleccionado por la NASA en 2001. No se tiene información sobre su lugar de nacimiento. Díaz murió en Oakwood Hills.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id53_Building_Fict": {
+        "triple": [
+            "Harbor Lights Lofts | location | Emberon",
+            "Emberon | language | Zephyrian",
+            "Futura Dynamics | foundationPlace | 'Falconer'",
+            "Emberon | leader | 'Jason Tucker'",
+            "Harbor Lights Lofts | tenant | Futura Dynamics"
+        ],
+        "gen_text": "Los Lofts Harbor Lights están ubicados en Emberon, una ubicación donde se habla el idioma Zephyrian y su líder es Jason Tucker. La empresa Futura Dynamics, que fue fundada en 'Falconer', es inquilina en Harbor Lights Lofts.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id30_CelestialBody_Fict": {
+        "triple": [
+            "MeteorX-22 | epoch | '2024-06-05'",
+            "MeteorX-22 | mass | '12.6 kg'",
+            "MeteorX-22 | orbitalPeriod | 936",
+            "MeteorX-22 | periapsis | 237",
+            "MeteorX-22 | apoapsis | 1.75 miles"
+        ],
+        "gen_text": "El MeteorX-22 tiene un período de época que inicia el 5 de junio de 2024 con una masa de 12.6 kg. Su órbita tiene un período de 936, un periapsis de 237 y un apoapsis de 1.75 millas.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id13_Astronaut_REAL": {
+        "triple": [
+            "Alan_Bean | mission | Apollo_12",
+            "Apollo_12 | operator | NASA",
+            "Apollo_12 | commander | David_Scott",
+            "Alan_Bean | status | \"Retired\"",
+            "Alan_Bean | birthDate | \"1932-03-15\""
+        ],
+        "gen_text": "Alan Bean, nacido el 15 de marzo de 1932, fue un astronauta en la misión Apolo 12, que fue operada por la NASA. David Scott fue otro miembro de la tripulación de dicha misión. Bean se encuentra actualmente retirado.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id58_Athlete_REAL": {
+        "triple": [
+            "Los_Angeles_Rams | city | Los_Angeles_Memorial_Coliseum",
+            "Tennessee_Titans | city | Nashville,_Tennessee",
+            "Akeem_Ayers | formerTeam | Los_Angeles_Rams",
+            "Tennessee_Titans | coach | Mike_Mularkey",
+            "Akeem_Ayers | debutTeam | Tennessee_Titans"
+        ],
+        "gen_text": "Los Tennessee Titans, con sede en Nashville, Tennessee, están dirigidos por el entrenador Mike Mularkey. Akeem Ayers, que debutó con los Tennessee Titans, fue anteriormente miembro de Los Angeles Rams, un equipo localizado en el Memorial Coliseo de Los Ángeles.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id6_ComicsCharacter_REAL": {
+        "triple": [
+            "Bananaman | starring | Jill_Shilling",
+            "Bananaman | creator | Steve_Bright",
+            "Bananaman | firstAired | \"1983-10-03\"",
+            "Bananaman | lastAired | \"1986-04-15\"",
+            "Bananaman | broadcastedBy | \"STV\""
+        ],
+        "gen_text": "Bananaman, creado por Steve Bright, contó con Jill Shilling en un papel protagonista. Fue emitido por la red \"STV\", con su primer episodio transmitido el 3 de octubre de 1983 y concluyendo el 15 de abril de 1986.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id45_WrittenWork_REAL": {
+        "triple": [
+            "English_language | spokenIn | Great_Britain",
+            "United_States | capital | Washington,_D.C.",
+            "United_States | language | English_language",
+            "Alcatraz_Versus_the_Evil_Librarians | country | United_States",
+            "United_States | ethnicGroup | African_Americans"
+        ],
+        "gen_text": "El idioma inglés se habla en Gran Bretaña y es el idioma oficial de los Estados Unidos. La capital de los Estados Unidos es Washington, D.C. El país también es donde la obra \"Alcatraz Versus the Evil Librarians\" está ubicado, y está habitado por un grupo étnico conocido como los afroamericanos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect idioma oficial is not in triples"
+    },
+    "5_Id48_City_REAL": {
+        "triple": [
+            "Anaheim,_California | isPartOf | Orange_County,_California",
+            "Orange_County,_California | isPartOf | Greater_Los_Angeles_Area",
+            "Anaheim,_California | leaderTitle | California_State_Assembly",
+            "Anaheim,_California | areaTotal | 131.6 (square kilometres)",
+            "Anaheim,_California | country | United_States"
+        ],
+        "gen_text": "Anaheim, California, es parte del condado de Orange en California, que a su vez es una subdivisión del área metropolitana de Los Ángeles. Anaheim tiene un área total de 1.316e+08 y está ubicada en los Estados Unidos. Su líder tiene el título de Asamblea Estatal de California.",
+        "Model_Judge": "Incorrect. The area is incorrectly written as \"1.316e+08\", it should be \"131.6 kilómetros cuadrados\".\nREWRITE\nAnaheim, California, es parte del condado de Orange en California, que a su vez es una subdivisión del área metropolitana de Los Ángeles. Anaheim tiene un área total de 131.6 kilómetros cuadrados y está ubicada en los Estados Unidos. Su líder tiene el título de Asamblea Estatal de California.",
+        "Author_Judge": "Incorrect"
+    },
+    "5_Id98_WrittenWork_REAL": {
+        "triple": [
+            "United_States | leaderTitle | President_of_the_United_States",
+            "United_States | leader | Barack_Obama",
+            "United_States | demonym | Americans",
+            "1634:_The_Ram_Rebellion | country | United_States",
+            "United_States | ethnicGroup | Native_Americans_in_the_United_States"
+        ],
+        "gen_text": "El líder de los Estados Unidos es el Presidente del país, puesto que fue ocupado por Barack Obama. Los habitantes del país son conocidos como americanos. Incluso el libro, 1634: The Ram Rebellion, tiene como escenario a los Estados Unidos. Además, una de los grupos étnicos en los Estados Unidos son los nativos americanos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect, really clunky and again says official language for languaxge pred"
+    },
+    "5_Id27_WrittenWork_REAL": {
+        "triple": [
+            "Acta_Palaeontologica_Polonica | publisher | Polish_Academy_of_Sciences",
+            "Acta_Palaeontologica_Polonica | issnNumber | \"0567-7920\"",
+            "Acta_Palaeontologica_Polonica | LCCN_number | 60040714",
+            "Acta_Palaeontologica_Polonica | codenCode | \"APGPAC\"",
+            "Acta_Palaeontologica_Polonica | abbreviation | \"Acta Palaeontol. Pol.\""
+        ],
+        "gen_text": "La revista Acta Palaeontologica Polonica es publicada por la Academia Polaca de Ciencias. Tiene el ISSN \"0567-7920\", el número de control de la Biblioteca del Congreso \"60040714\", su código es \"APGPAC\", y se abrevia como \"Acta Palaeontol. Pol.\".",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id205_City_REAL": {
+        "triple": [
+            "United_States | ethnicGroup | Native_Americans_in_the_United_States",
+            "United_States | language | English_language",
+            "United_States | leaderTitle | President_of_the_United_States",
+            "United_States | leader | Barack_Obama",
+            "Albuquerque,_New_Mexico | country | United_States"
+        ],
+        "gen_text": "Los Estados Unidos, donde el inglés es el idioma oficial, tienen como grupo étnico a los nativos americanos. El título de su líder es \"Presidente de los Estados Unidos\", puesto que fue ocupado por Barack Obama. Albuquerque, Nuevo México, es parte de los Estados Unidos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id129_City_REAL": {
+        "triple": [
+            "Auburn,_Washington | isPartOf | Washington_(state)",
+            "Washington_(state) | capital | Olympia,_Washington",
+            "King_County,_Washington | country | United_States",
+            "United_States | largestCity | New_York_City",
+            "Auburn,_Washington | isPartOf | King_County,_Washington"
+        ],
+        "gen_text": "Auburn, que es parte de King County, se encuentra en el estado de Washington, cuya capital es Olympia. King County pertenece a los Estados Unidos, cuya ciudad más grande es la ciudad de Nueva York.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id61_City_REAL": {
+        "triple": [
+            "Anaheim,_California | leader | Tom_Tait",
+            "United_States | language | English_language",
+            "United_States_House_of_Representatives | location | United_States",
+            "United_States_House_of_Representatives | isPartOf | United_States_Congress",
+            "Anaheim,_California | leaderTitle | United_States_House_of_Representatives"
+        ],
+        "gen_text": "Anaheim, California, es liderada por Tom Tait, quien tiene el cargo de la Cámara de Representantes de los Estados Unidos. La Cámara de Representantes se encuentra en los Estados Unidos y es parte del Congreso de los Estados Unidos. En los Estados Unidos, el idioma oficial es el inglés.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id101_City_REAL": {
+        "triple": [
+            "Atlantic_City,_New_Jersey | country | United_States",
+            "United_States | ethnicGroup | Native_Americans_in_the_United_States",
+            "New_Jersey | largestCity | Newark,_New_Jersey",
+            "New_Jersey | capital | Trenton,_New_Jersey",
+            "Atlantic_City,_New_Jersey | isPartOf | New_Jersey"
+        ],
+        "gen_text": "Atlantic City, Nueva Jersey, es parte de los Estados Unidos y se encuentra en Nueva Jersey. Los Estados Unidos tienen a los nativos americanos como uno de los grupos étnicos. Nueva Jersey tiene a Newark como su ciudad más grande y Trenton como su capital.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id49_City_REAL": {
+        "triple": [
+            "Anaheim,_California | isPartOf | Orange_County,_California",
+            "Orange_County,_California | isPartOf | Greater_Los_Angeles_Area",
+            "Anaheim,_California | leaderTitle | United_States_House_of_Representatives",
+            "Anaheim,_California | areaTotal | 131.6 (square kilometres)",
+            "Anaheim,_California | country | United_States"
+        ],
+        "gen_text": "Anaheim, California, es parte del condado de Orange, California, que a su vez es una subdivisión del área metropolitana de Los Ángeles. El líder de Anaheim es la Cámara de Representantes de los Estados Unidos. Con un área total de 131.6 millones de metros cuadrados, Anaheim está situado en los Estados Unidos.",
+        "Model_Judge": "Incorrect. The area total has been wrongly translated as \"millions of square meters\" while it should be \"square kilometres\".\nREWRITE\nAnaheim, California, es parte del condado de Orange, California, que a su vez es una subdivisión del área metropolitana de Los Ángeles. El líder de Anaheim es la Cámara de Representantes de los Estados Unidos. Con un área total de 131.6 kilómetros cuadrados, Anaheim está situado en los Estados Unidos.",
+        "Author_Judge": "Incorrect"
+    },
+    "5_Id41_City_REAL": {
+        "triple": [
+            "Amarillo,_Texas | isPartOf | Potter_County,_Texas",
+            "Potter_County,_Texas | state | Texas",
+            "Potter_County,_Texas | country | United_States",
+            "United_States | language | English_language",
+            "Texas | capital | Austin,_Texas"
+        ],
+        "gen_text": "Amarillo, Texas es parte de Potter County, Texas, que se encuentra en el estado de Texas, en los Estados Unidos. El idioma oficial de los Estados Unidos es el inglés y la capital de Texas es Austin.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id220_City_REAL": {
+        "triple": [
+            "United_States | leader | Barack_Obama",
+            "United_States | capital | Washington,_D.C.",
+            "Akron,_Ohio | country | United_States",
+            "United_States | ethnicGroup | African_Americans",
+            "Akron,_Ohio | isPartOf | Summit_County,_Ohio"
+        ],
+        "gen_text": "Barack Obama es líder de los Estados Unidos, cuya capital es Washington, D.C. Akron, Ohio, es una ciudad en los Estados Unidos, específicamente en el Condado de Summit, Ohio. Los afroamericanos son un grupo étnico prominente en los Estados Unidos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id148_City_REAL": {
+        "triple": [
+            "Tarrant_County,_Texas | countySeat | Fort_Worth,_Texas",
+            "Arlington,_Texas | isPartOf | Tarrant_County,_Texas",
+            "Arlington,_Texas | isPartOf | Texas",
+            "Tarrant_County,_Texas | country | United_States",
+            "Texas | largestCity | Houston"
+        ],
+        "gen_text": "Tarrant County, Texas, cuya sede del condado es Fort Worth, Texas, está situada en los Estados Unidos. Arlington, Texas, es parte de Tarrant County y también de Texas, cuya ciudad más grande es Houston.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id40_Athlete_REAL": {
+        "triple": [
+            "Central_Español | league | Uruguayan_Segunda_División",
+            "Abel_Hernández | youthclub | Central_Español",
+            "U.S._Città_di_Palermo | manager | Giuseppe_Iachini",
+            "Abel_Hernández | club | Uruguay_Olympic_football_team",
+            "Abel_Hernández | club | U.S._Città_di_Palermo"
+        ],
+        "gen_text": "Central Español, un club en la Segunda División Uruguaya, fue uno de los clubes juveniles donde jugó Abel Hernández. Abel actualmente juega para el equipo de fútbol olímpico de Uruguay y también juega para el U.S. Città di Palermo, donde Giuseppe Iachini es el entrenador.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id208_City_REAL": {
+        "triple": [
+            "United_States | language | English_language",
+            "Albuquerque,_New_Mexico | isPartOf | New_Mexico",
+            "United_States | leader | Barack_Obama",
+            "Albuquerque,_New_Mexico | leaderTitle | United_States_House_of_Representatives",
+            "Albuquerque,_New_Mexico | country | United_States"
+        ],
+        "gen_text": "El inglés es la lengua oficial de Estados Unidos, país liderado por Barack Obama. Albuquerque, Nueva México, forma parte del estado de Nuevo México y es un territorio de Estados Unidos. El título del líder en Albuquerque es el de la Cámara de Representantes de los Estados Unidos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id105_City_REAL": {
+        "triple": [
+            "Atlantic_City,_New_Jersey | leader | Don_Guardian",
+            "Atlantic_City,_New_Jersey | leaderTitle | Clerk_(municipal_official)",
+            "Atlantic_City,_New_Jersey | areaCode | 609",
+            "Atlantic_City,_New_Jersey | populationDensity | 1421.2 (inhabitants per square kilometre)",
+            "Atlantic_City,_New_Jersey | areaTotal | 44.125 (square kilometres)"
+        ],
+        "gen_text": "Atlantic City, en Nueva Jersey, es dirigida por Don Guardian, quien actúa como \"Clerk\". La ciudad tiene un código de área de \"609\" y una densidad de población de 1421.16 habitantes por kilómetro cuadrado. El área total de Atlantic City es de 44.125 kilómetros cuadrados.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id22_City_REAL": {
+        "triple": [
+            "Albuquerque,_New_Mexico | isPartOf | Bernalillo_County,_New_Mexico",
+            "United_States | language | English_language",
+            "United_States | leaderTitle | President_of_the_United_States",
+            "Albuquerque,_New_Mexico | leader | Richard_J._Berry",
+            "Albuquerque,_New_Mexico | country | United_States"
+        ],
+        "gen_text": "Albuquerque, situada en el condado de Bernalillo, Nueva México, es liderada por Richard J. Berry. Esta ciudad es parte de los Estados Unidos, donde el idioma principal es el inglés y el presidente es el líder del país.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id202_City_REAL": {
+        "triple": [
+            "United_States | ethnicGroup | Native_Americans_in_the_United_States",
+            "United_States | capital | Washington,_D.C.",
+            "New_Jersey | country | United_States",
+            "United_States | largestCity | New_York_City",
+            "Atlantic_City,_New_Jersey | isPartOf | New_Jersey"
+        ],
+        "gen_text": "Los Estados Unidos, cuya capital es Washington, D.C., tienen como uno de sus grupos étnicos a los nativos americanos. La ciudad más grande de Estados Unidos es la ciudad de Nueva York. Nueva Jersey es un estado que forma parte de los Estados Unidos y Atlantic City es una ciudad que se encuentra en Nueva Jersey.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id225_City_REAL": {
+        "triple": [
+            "United_States | leaderTitle | President_of_the_United_States",
+            "United_States | demonym | Americans",
+            "Albany,_Georgia | isPartOf | Dougherty_County,_Georgia",
+            "Albany,_Georgia | country | United_States",
+            "United_States | ethnicGroup | Native_Americans_in_the_United_States"
+        ],
+        "gen_text": "El líder de los Estados Unidos lleva el título de Presidente de los Estados Unidos y sus habitantes son conocidos como estadounidenses. Albany, Georgia, es una subdivisión de Dougherty County, Georgia, y está en el país de los Estados Unidos. Entre los grupos étnicos de los Estados Unidos se encuentran los nativos americanos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id125_City_REAL": {
+        "triple": [
+            "Auburn,_Washington | isPartOf | Pierce_County,_Washington",
+            "Auburn,_Washington | isPartOf | Washington_(state)",
+            "Washington_(state) | largestCity | Seattle",
+            "Washington_(state) | capital | Olympia,_Washington",
+            "Washington_(state) | country | United_States"
+        ],
+        "gen_text": "Auburn, Washington, es una parte de Pierce County en el estado de Washington, Estados Unidos. La ciudad más grande del estado de Washington es Seattle y su capital es Olympia.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id113_City_REAL": {
+        "triple": [
+            "Auburn,_Alabama | areaOfWater | 1.7 (square kilometres)",
+            "Auburn,_Alabama | elevationAboveTheSeaLevel | 214.0",
+            "Auburn,_Alabama | areaCode | 334",
+            "Auburn,_Alabama | areaTotal | 140.8 (square kilometres)",
+            "Auburn,_Alabama | populationDensity | 368.65 (inhabitants per square kilometre)"
+        ],
+        "gen_text": "Auburn, Alabama, tiene un área total de 140.8 kilómetros cuadrados, con 1.7 millones de metros cuadrados de agua. Se encuentra a una elevación de 213.97 metros sobre el nivel del mar. Auburn tiene un código de área 334 y una densidad poblacional de 368.65 habitantes por kilómetro cuadrado.",
+        "Model_Judge": "Incorrect. The elevation is slightly inaccurate, and the water area is incorrectly represented as \"1.7 million square meters\" rather than \"1.7 square kilometers.\"\nREWRITE\nAuburn, Alabama, tiene un área total de 140.8 kilómetros cuadrados, con 1.7 kilómetros cuadrados de agua. Se encuentra a una elevación de 214 metros sobre el nivel del mar. Auburn tiene un código de área 334 y una densidad poblacional de 368.65 habitantes por kilómetro cuadrado.",
+        "Author_Judge": "Incorrect"
+    },
+    "5_Id98_City_REAL": {
+        "triple": [
+            "Atlantic_City,_New_Jersey | country | United_States",
+            "United_States | capital | Washington,_D.C.",
+            "Atlantic_City,_New_Jersey | isPartOf | Atlantic_County,_New_Jersey",
+            "United_States | largestCity | New_York_City",
+            "United_States | ethnicGroup | Asian_Americans"
+        ],
+        "gen_text": "Atlantic City se encuentra en Nueva Jersey, Estados Unidos, específicamente en el condado de Atlantic. El país tiene su capital en Washington, D.C., y su ciudad más grande es Nueva York. Entre sus grupos étnicos, se incluyen los estadounidenses de origen asiático.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id82_City_REAL": {
+        "triple": [
+            "Ann_Arbor,_Michigan | leaderTitle | \"City Administrator\"",
+            "Ann_Arbor,_Michigan | populationDensity | 1580.7 (inhabitants per square kilometre)",
+            "Ann_Arbor,_Michigan | leader | Christopher_Taylor_(politician)",
+            "Ann_Arbor,_Michigan | areaCode | 734",
+            "Ann_Arbor,_Michigan | areaTotal | 74.33 (square kilometres)"
+        ],
+        "gen_text": "Ann Arbor, Michigan, tiene como líder al Administrador de la Ciudad, Christopher Taylor. Posee un código de área 734 y una densidad de población de 1580.66 personas por kilómetro cuadrado. El tamaño total del área de Ann Arbor es de 74.33 kilómetros cuadrados.",
+        "Model_Judge": "Incorrect. The population density value is incorrectly stated in the text as 1580.66 when it should be 1580.7.\nREWRITE\nAnn Arbor, Michigan, tiene como líder al Administrador de la Ciudad, Christopher Taylor. Posee un código de área 734 y una densidad de población de 1580.7 personas por kilómetro cuadrado. El tamaño total del área de Ann Arbor es de 74.33 kilómetros cuadrados.",
+        "Author_Judge": "Incorrect"
+    },
+    "5_Id123_City_REAL": {
+        "triple": [
+            "Auburn,_Washington | isPartOf | Pierce_County,_Washington",
+            "Auburn,_Washington | isPartOf | Washington_(state)",
+            "Washington_(state) | largestCity | Seattle",
+            "United_States | capital | Washington,_D.C.",
+            "Pierce_County,_Washington | country | United_States"
+        ],
+        "gen_text": "Auburn, ubicado en Washington, es parte del condado de Pierce. El condado de Pierce se encuentra en los Estados Unidos, cuya capital es Washington D.C. En el estado de Washington, la ciudad más grande es Seattle.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id20_WrittenWork_REAL": {
+        "triple": [
+            "A_Loyal_Character_Dancer | language | English_language",
+            "English_language | spokenIn | Great_Britain",
+            "A_Loyal_Character_Dancer | publisher | Soho_Press",
+            "Soho_Press | country | United_States",
+            "United_States | ethnicGroup | Asian_Americans"
+        ],
+        "gen_text": "\"A Loyal Character Dancer\" es una obra escrita en inglés, lengua que se habla en Gran Bretaña. Fue publicada por Soho Press, una editorial con sede en los Estados Unidos, país donde reside un grupo étnico de asiático-americanos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id9_MeanOfTransportation_REAL": {
+        "triple": [
+            "AIDA_Cruises | location | Germany",
+            "Caterpillar_Inc. | keyPerson | Douglas_R._Oberhelman",
+            "Caterpillar_Inc. | foundationPlace | California",
+            "AIDAluna | owner | AIDA_Cruises",
+            "AIDAluna | powerType | Caterpillar_Inc."
+        ],
+        "gen_text": "La compañía AIDA Cruises está ubicada en Alemania y es propietaria del barco AIDAluna. Este barco usa un tipo de propulsión suministrado por Caterpillar Inc., una empresa fundada en California y en la que Douglas R. Oberhelman desempeña un papel fundamental.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id90_WrittenWork_REAL": {
+        "triple": [
+            "United_States | leaderTitle | President_of_the_United_States",
+            "Alcatraz_Versus_the_Evil_Librarians | language | English_language",
+            "English_language | spokenIn | Great_Britain",
+            "United_States | ethnicGroup | Asian_Americans",
+            "Alcatraz_Versus_the_Evil_Librarians | country | United_States"
+        ],
+        "gen_text": "El líder de los Estados Unidos lleva el título de Presidente de los Estados Unidos. Los Estados Unidos también es el país donde se encuentra \"Alcatraz Versus the Evil Librarians\", que está escrito en inglés, un idioma que se habla en Gran Bretaña. Los asiático-americanos son un grupo étnico en Estados Unidos.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id132_City_REAL": {
+        "triple": [
+            "Auburn,_Washington | isPartOf | Washington_(state)",
+            "Washington_(state) | largestCity | Seattle",
+            "United_States | capital | Washington,_D.C.",
+            "Washington_(state) | country | United_States",
+            "Auburn,_Washington | isPartOf | King_County,_Washington"
+        ],
+        "gen_text": "Auburn es una subdivisión de Washington, que se encuentra en el país de los Estados Unidos, cuya capital es Washington, D.C. La ciudad más grande de Washington es Seattle. Auburn también es parte del condado de King en Washington.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id86_Astronaut_REAL": {
+        "triple": [
+            "William_Anders | selectedByNasa | 1963",
+            "William_Anders | status | \"Retired\"",
+            "William_Anders | occupation | Fighter_pilot",
+            "William_Anders | birthPlace | British_Hong_Kong",
+            "William_Anders | mission | Apollo_8"
+        ],
+        "gen_text": "William Anders, nacido en Hong Kong británico, es un ex piloto de combate que fue seleccionado en 1963 y ahora está retirado. Participó en la misión Apolo 8.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id52_Athlete_REAL": {
+        "triple": [
+            "Houston_Texans | city | Texas",
+            "Akeem_Dent | debutTeam | Atlanta_Falcons",
+            "Akeem_Dent | formerTeam | Houston_Texans",
+            "Houston_Texans | city | Houston",
+            "Atlanta_Falcons | owner | Arthur_Blank"
+        ],
+        "gen_text": "Los Houston Texans son un equipo de fútbol americano ubicado en la ciudad de Houston, Texas. Akeem Dent, quien debutó con los Atlanta Falcons, un equipo propiedad de Arthur Blank, fue anteriormente parte de los Houston Texans.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Good"
+    },
+    "5_Id58_Astronaut_REAL": {
+        "triple": [
+            "Elliot_See | almaMater | University_of_Texas_at_Austin",
+            "Elliot_See | status | \"Deceased\"",
+            "Elliot_See | deathPlace | St._Louis",
+            "Elliot_See | birthPlace | Dallas",
+            "Elliot_See | selectedByNasa | 1962"
+        ],
+        "gen_text": "Elliot See nació en Dallas y es exalumno de la Universidad de Texas en Austin. Fue seleccionado en 1962 y lamentablemente está fallecido. Su lugar de fallecimiento fue St. Louis.",
+        "Model_Judge": "Good.",
+        "Author_Judge": "Incorrect - doesn't mention NASA"
+    }
+}
